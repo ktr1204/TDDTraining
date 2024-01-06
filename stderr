@@ -1,7 +1,4 @@
-Hiker.java:7: error: <identifier> expected
-    public static int judge(String[]) {
-                                    ^
 HikerTest.java:14: error: illegal start of expression
         String[] hand = ["H2", "C3", "D4", "S5", "H6"];
                         ^
-2 errors
+1 error
