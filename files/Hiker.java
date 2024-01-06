@@ -1,7 +1,10 @@
 
 public class Hiker {
 
-    public static int answer() {
+    public Hiker(){
+        
+    }
+    public static int judge(String[]) {
         return 6 * 9;
     }
 }

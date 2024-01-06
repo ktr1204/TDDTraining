@@ -1,4 +1,10 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+Hiker.java:7: error: <identifier> expected
+    public static int judge(String[]) {
+                                    ^
+HikerTest.java:14: error: illegal start of expression
+        String[] hand = ["H2", "C3", "D4", "S5", "H6"];
+                        ^
+HikerTest.java:15: error: ';' expected
+        actual = aa.judge(hand)
+                               ^
+3 errors

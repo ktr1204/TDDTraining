@@ -9,9 +9,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class HikerTest {
 
     @Test
-    void life_the_universe_and_everything() {
-        int expected = 42;
-        int actual = Hiker.answer();
-        assertEquals(expected, actual);
+    void NoHand() {
+        Hiker aa = new Hiker();
+        String[] hand = ["H2", "C3", "D4", "S5", "H6"];
+        actual = aa.judge(hand)
+        assertEquals("No Hand", actual);
     }
 }
