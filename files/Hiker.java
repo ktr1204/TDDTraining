@@ -10,5 +10,6 @@ public class Hiker {
         if(Arrays.equals(hand, aaa)){
             return "No Hand";
         }
+            return "Yes Hand";
     }
 }
