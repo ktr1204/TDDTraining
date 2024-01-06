@@ -1,16 +1,13 @@
 Hiker.java:8: error: illegal start of expression
-        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
-                  ^
-Hiker.java:8: error: illegal start of expression
-        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
-                    ^
+        if(hand == {"H2", "C3", "D4", "S5", "H6"}){
+                   ^
 Hiker.java:8: error: not a statement
-        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
-                     ^
+        if(hand == {"H2", "C3", "D4", "S5", "H6"}){
+                    ^
 Hiker.java:8: error: ';' expected
-        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
-                         ^
+        if(hand == {"H2", "C3", "D4", "S5", "H6"}){
+                        ^
 Hiker.java:8: error: illegal start of expression
-        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
-                                                  ^
-5 errors
+        if(hand == {"H2", "C3", "D4", "S5", "H6"}){
+                                                 ^
+4 errors
