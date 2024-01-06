@@ -1,4 +1,6 @@
-Hiker.java:9: error: ')' expected
-        if(Array.equals(hand, aaa){
-                                  ^
+Hiker.java:9: error: cannot find symbol
+        if(Array.equals(hand, aaa)){
+           ^
+  symbol:   variable Array
+  location: class Hiker
 1 error
