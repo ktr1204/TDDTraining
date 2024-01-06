@@ -10,9 +10,9 @@ public class HikerTest {
 
     @Test
     void NoHand() {
-        Hiker aa = new Hiker();
+        Hiker hiker = new Hiker();
         String[] hand = {"H2", "C3", "D4", "S5", "H6"};
-        String actual = aa.judge(hand);
+        String actual = hiker.judge(hand);
         assertEquals("No Hand", actual);
     }
 }

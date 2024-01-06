@@ -1,4 +1,16 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+Hiker.java:8: error: illegal start of expression
+        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
+                  ^
+Hiker.java:8: error: illegal start of expression
+        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
+                    ^
+Hiker.java:8: error: not a statement
+        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
+                     ^
+Hiker.java:8: error: ';' expected
+        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
+                         ^
+Hiker.java:8: error: illegal start of expression
+        if(hand === {"H2", "C3", "D4", "S5", "H6"}){
+                                                  ^
+5 errors
