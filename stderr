@@ -1,11 +1,4 @@
-HikerTest.java:15: error: cannot find symbol
-        actual = aa.judge(hand);
-        ^
-  symbol:   variable actual
-  location: class HikerTest
-HikerTest.java:16: error: cannot find symbol
-        assertEquals("No Hand", actual);
+HikerTest.java:15: error: incompatible types: int cannot be converted to String
+        String actual = aa.judge(hand);
                                 ^
-  symbol:   variable actual
-  location: class HikerTest
-2 errors
+1 error

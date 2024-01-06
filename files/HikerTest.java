@@ -12,7 +12,7 @@ public class HikerTest {
     void NoHand() {
         Hiker aa = new Hiker();
         String[] hand = {"H2", "C3", "D4", "S5", "H6"};
-        actual = aa.judge(hand);
+        String actual = aa.judge(hand);
         assertEquals("No Hand", actual);
     }
 }
