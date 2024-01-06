@@ -1,0 +1,25 @@
+{
+  "image_name": "cyberdojofoundation/java_junit:edf2565",
+  "display_name": "Java 21, JUnit 5",
+  "filename_extension": [
+    ".java"
+  ],
+  "max_seconds": 10,
+  "tab_size": 4,
+  "progress_regexs": [
+    "Failures (\\d)\\:",
+    "^\\[\\s+(\\d+) tests successful\\s+\\]"
+  ],
+  "exercise": "Poker Hands",
+  "version": 2,
+  "created": [
+    2024,
+    1,
+    6,
+    17,
+    10,
+    26,
+    285941
+  ],
+  "id": "rhuZFw"
+}
