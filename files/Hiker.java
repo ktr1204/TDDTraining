@@ -5,7 +5,8 @@ public class Hiker {
         
     }
     public static String judge(String[] hand) {
-        if(hand.equals({"H2", "C3", "D4", "S5", "H6"})){
+        String[] aaa = {"H2", "C3", "D4", "S5", "H6"};
+        if(Array.equals(hand, aaa){
             return "No Hand";
         }
     }

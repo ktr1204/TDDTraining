@@ -1,13 +1,4 @@
-Hiker.java:8: error: illegal start of expression
-        if(hand.equals({"H2", "C3", "D4", "S5", "H6"})){
-                       ^
-Hiker.java:8: error: not a statement
-        if(hand.equals({"H2", "C3", "D4", "S5", "H6"})){
-                        ^
-Hiker.java:8: error: ';' expected
-        if(hand.equals({"H2", "C3", "D4", "S5", "H6"})){
-                            ^
-Hiker.java:8: error: illegal start of expression
-        if(hand.equals({"H2", "C3", "D4", "S5", "H6"})){
-                                                     ^
-4 errors
+Hiker.java:9: error: ')' expected
+        if(Array.equals(hand, aaa){
+                                  ^
+1 error
