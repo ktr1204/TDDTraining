@@ -11,7 +11,7 @@ public class HikerTest {
     @Test
     void NoHand() {
         Hiker aa = new Hiker();
-        String[] hand = ["H2", "C3", "D4", "S5", "H6"];
+        String[] hand = {"H2", "C3", "D4", "S5", "H6"};
         actual = aa.judge(hand);
         assertEquals("No Hand", actual);
     }

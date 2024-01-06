@@ -1,4 +1,11 @@
-HikerTest.java:14: error: illegal start of expression
-        String[] hand = ["H2", "C3", "D4", "S5", "H6"];
-                        ^
-1 error
+HikerTest.java:15: error: cannot find symbol
+        actual = aa.judge(hand);
+        ^
+  symbol:   variable actual
+  location: class HikerTest
+HikerTest.java:16: error: cannot find symbol
+        assertEquals("No Hand", actual);
+                                ^
+  symbol:   variable actual
+  location: class HikerTest
+2 errors
