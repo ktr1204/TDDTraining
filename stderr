@@ -1,6 +1,4 @@
-Hiker.java:9: error: cannot find symbol
-        if(Array.equals(hand, aaa)){
-           ^
-  symbol:   variable Array
-  location: class Hiker
+Hiker.java:13: error: missing return statement
+    }
+    ^
 1 error
