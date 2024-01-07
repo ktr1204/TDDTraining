@@ -12,7 +12,7 @@ public class JudgeMan {
                 System.out.println(numberi);
             for(int k = 1; k < hand.length; k++){
                 String numberk = hand[k].substring(1);
-                System.out.print(k);
+                System.out.print("k = ",k);
                 System.out.println(numberk);
             }
         }
