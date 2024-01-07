@@ -20,12 +20,12 @@ public class JudgeMan {
                 if(number.equals(hand[k].substring(1))){
                     pairStack++;
                 }
-                System.out.print("pairStack = ");
-                System.out.println(pairStack);
                 System.out.print("k = ");
                 System.out.print(k);
                 System.out.print(" kのnumber = ");
                 System.out.println(hand[k].substring(1));
+                System.out.print("pairStack = ");
+                System.out.println(pairStack);
             }
         }
         

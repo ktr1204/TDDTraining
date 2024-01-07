@@ -1,32 +1,32 @@
 i = 0 iのnumber = 2
+k = 1 kのnumber = 3
 pairStack = 0
-k = 1 kのnumber = 3
-pairStack = 1
 k = 2 kのnumber = 2
 pairStack = 1
 k = 3 kのnumber = 3
+pairStack = 1
 i = 1 iのnumber = 3
+k = 2 kのnumber = 2
 pairStack = 1
-k = 2 kのnumber = 2
-pairStack = 2
 k = 3 kのnumber = 3
+pairStack = 2
 i = 2 iのnumber = 2
-pairStack = 2
 k = 1 kのnumber = 3
 pairStack = 2
 k = 3 kのnumber = 3
+pairStack = 2
 i = 3 iのnumber = 3
-pairStack = 3
 k = 1 kのnumber = 3
 pairStack = 3
 k = 2 kのnumber = 2
-i = 4 iのnumber = 6
 pairStack = 3
+i = 4 iのnumber = 6
 k = 1 kのnumber = 3
 pairStack = 3
 k = 2 kのnumber = 2
 pairStack = 3
 k = 3 kのnumber = 3
+pairStack = 3
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
@@ -49,7 +49,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 183 ms
+Test run finished after 179 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
