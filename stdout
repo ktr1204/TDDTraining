@@ -1,0 +1,51 @@
+000000000000000000000111111122222222222201111122333334444444.
++-- JUnit Jupiter [OK]
+| '-- JudgeManTest [OK]
+|   +-- NoHand [OK]
+|   +-- OnePair [X] expected: <One Pair> but was: <Two Pair>
+|   '-- TwoPair [X] expected: <Two Pair> but was: <No Hand>
++-- JUnit Vintage [OK]
+'-- JUnit Platform Suite [OK]
+
+Failures (2):
+  JUnit Jupiter:JudgeManTest:OnePair
+    MethodSource [className = 'JudgeManTest', methodName = 'OnePair', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <One Pair> but was: <Two Pair>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       JudgeManTest.OnePair(JudgeManTest.java:24)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+  JUnit Jupiter:JudgeManTest:TwoPair
+    MethodSource [className = 'JudgeManTest', methodName = 'TwoPair', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <Two Pair> but was: <No Hand>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       JudgeManTest.TwoPair(JudgeManTest.java:31)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Test run finished after 179 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         2 tests failed          ]
+

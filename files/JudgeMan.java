@@ -34,5 +34,5 @@ public class JudgeMan {
                     return "Two Pair";
                     default:
                     return "No Hand";
-    }
+    }}
 }
