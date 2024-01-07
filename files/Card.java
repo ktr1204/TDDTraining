@@ -4,10 +4,10 @@ public enum Card {
     HEART("Ehime"),
     CLUB("Aomori");
         // フィールド
-    private final double s;
+    private final String s;
 
     // コンストラクタ
-    private Card(double s) {
+    private Card(String s) {
         this.s = s;
     }
 }

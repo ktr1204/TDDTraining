@@ -1,14 +1,4 @@
-Card.java:2: error: incompatible types: String cannot be converted to double
-    CLOVER("Okinawa"),
-           ^
-Card.java:3: error: incompatible types: String cannot be converted to double
-    DIAMOND("Ehime"),
-            ^
-Card.java:4: error: incompatible types: String cannot be converted to double
-    HEART("Ehime"),
-          ^
-Card.java:5: error: incompatible types: String cannot be converted to double
-    CLUB("Aomori");
-         ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-4 errors
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
