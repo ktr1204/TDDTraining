@@ -1,4 +1,4 @@
-Card.java:1: error: modifier protected not allowed here
+Card.java:2: error: class Card is already defined in package unnamed package
     protected enum Card {
               ^
 1 error
