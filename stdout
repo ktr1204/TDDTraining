@@ -5,51 +5,32 @@ k = 2 kのnumber = 2
 pairStack = 1
 k = 3 kのnumber = 3
 pairStack = 1
+k = 4 kのnumber = 6
+pairStack = 1
 i = 1 iのnumber = 3
 k = 2 kのnumber = 2
 pairStack = 1
 k = 3 kのnumber = 3
 pairStack = 2
-i = 2 iのnumber = 2
-k = 1 kのnumber = 3
+k = 4 kのnumber = 6
 pairStack = 2
+i = 2 iのnumber = 2
 k = 3 kのnumber = 3
+pairStack = 2
+k = 4 kのnumber = 6
 pairStack = 2
 i = 3 iのnumber = 3
-k = 1 kのnumber = 3
-pairStack = 3
-k = 2 kのnumber = 2
-pairStack = 3
+k = 4 kのnumber = 6
+pairStack = 2
 i = 4 iのnumber = 6
-k = 1 kのnumber = 3
-pairStack = 3
-k = 2 kのnumber = 2
-pairStack = 3
-k = 3 kのnumber = 3
-pairStack = 3
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
-|   '-- TwoPair [X] expected: <Two Pair> but was: <No Hand>
+|   '-- TwoPair [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (1):
-  JUnit Jupiter:JudgeManTest:TwoPair
-    MethodSource [className = 'JudgeManTest', methodName = 'TwoPair', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Two Pair> but was: <No Hand>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.TwoPair(JudgeManTest.java:31)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 179 ms
+Test run finished after 132 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -60,6 +41,6 @@ Test run finished after 179 ms
 [         0 tests skipped         ]
 [         1 tests started         ]
 [         0 tests aborted         ]
-[         0 tests successful      ]
-[         1 tests failed          ]
+[         1 tests successful      ]
+[         0 tests failed          ]
 
