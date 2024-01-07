@@ -1,4 +1,4 @@
-Card.java:7: error: invalid method declaration; return type required
-      private Fruit(String madein) { // コンストラクタの定義
+Card.java:1: error: modifier protected not allowed here
+    protected enum Card {
               ^
 1 error
