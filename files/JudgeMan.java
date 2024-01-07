@@ -8,11 +8,15 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         for(int i = 0; i < hand.length; i++){
                 String numberi = hand[i].substring(1);
+                System.out.print("i = ");
                 System.out.print(i);
+                System.out.print(" number = ");
                 System.out.println(numberi);
             for(int k = 1; k < hand.length; k++){
                 String numberk = hand[k].substring(1);
-                System.out.print("k = ",k);
+                System.out.print("k = ");
+                System.out.print(k);
+                System.out.print(" number = ");
                 System.out.println(numberk);
             }
         }

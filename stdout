@@ -1,0 +1,98 @@
+i = 0 number = 2
+k = 1 number = 3
+k = 2 number = 4
+k = 3 number = 5
+k = 4 number = 6
+i = 1 number = 3
+k = 1 number = 3
+k = 2 number = 4
+k = 3 number = 5
+k = 4 number = 6
+i = 2 number = 4
+k = 1 number = 3
+k = 2 number = 4
+k = 3 number = 5
+k = 4 number = 6
+i = 3 number = 5
+k = 1 number = 3
+k = 2 number = 4
+k = 3 number = 5
+k = 4 number = 6
+i = 4 number = 6
+k = 1 number = 3
+k = 2 number = 4
+k = 3 number = 5
+k = 4 number = 6
+i = 0 number = 2
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 5
+k = 4 number = 6
+i = 1 number = 3
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 5
+k = 4 number = 6
+i = 2 number = 2
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 5
+k = 4 number = 6
+i = 3 number = 5
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 5
+k = 4 number = 6
+i = 4 number = 6
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 5
+k = 4 number = 6
+i = 0 number = 2
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 3
+k = 4 number = 6
+i = 1 number = 3
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 3
+k = 4 number = 6
+i = 2 number = 2
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 3
+k = 4 number = 6
+i = 3 number = 3
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 3
+k = 4 number = 6
+i = 4 number = 6
+k = 1 number = 3
+k = 2 number = 2
+k = 3 number = 3
+k = 4 number = 6
+.
++-- JUnit Jupiter [OK]
+| '-- JudgeManTest [OK]
+|   +-- NoHand [OK]
+|   +-- OnePair [OK]
+|   '-- TwoPair [OK]
++-- JUnit Vintage [OK]
+'-- JUnit Platform Suite [OK]
+
+Test run finished after 185 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         3 tests successful      ]
+[         0 tests failed          ]
+
