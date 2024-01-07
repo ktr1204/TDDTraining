@@ -1,4 +1,4 @@
-JudgeMan.java:38: error: reached end of file while parsing
-}
- ^
+JudgeMan.java:38: error: missing return statement
+    }
+    ^
 1 error
