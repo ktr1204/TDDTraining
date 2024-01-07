@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-public class Hiker {
+public class JudgeMan {
 
-    public Hiker(){
+    public JudgeMan(){
         
     }
     public static String judge(String[] hand) {

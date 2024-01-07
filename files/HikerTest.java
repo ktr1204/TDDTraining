@@ -10,7 +10,7 @@ public class HikerTest {
 
     @Test
     void NoHand() {
-        Hiker hiker = new Hiker();
+        JudgeMan judgeMan = new JudgeMan();
         String[] hand = {"H2", "C3", "D4", "S5", "H6"};
         String actual = hiker.judge(hand);
         assertEquals("No Hand", actual);
@@ -18,7 +18,7 @@ public class HikerTest {
     
     @Test
     void OnePair() {
-        Hiker hiker = new Hiker();
+        JudgeMan judgeMan = new JudgeMan();
         String[] hand = {"H2", "C3", "D2", "S5", "H6"};
         String actual = hiker.judge(hand);
         assertEquals("One Pair", actual);

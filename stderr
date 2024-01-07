@@ -1,4 +1,11 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+HikerTest.java:15: error: cannot find symbol
+        String actual = hiker.judge(hand);
+                        ^
+  symbol:   variable hiker
+  location: class HikerTest
+HikerTest.java:23: error: cannot find symbol
+        String actual = hiker.judge(hand);
+                        ^
+  symbol:   variable hiker
+  location: class HikerTest
+2 errors
