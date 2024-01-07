@@ -35,10 +35,4 @@ public class JudgeMan {
                 }
             }
         }
-        String[] twoPair = {"H2", "C3", "D2", "S3", "H6"};
-        if(Arrays.equals(hand, twoPair)){
-            return "Two Pair";
-        }
-            return "No Hand";
-    }
 }
