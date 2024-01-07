@@ -12,7 +12,7 @@ public class HikerTest {
     void NoHand() {
         JudgeMan judgeMan = new JudgeMan();
         String[] hand = {"H2", "C3", "D4", "S5", "H6"};
-        String actual = hiker.judge(hand);
+        String actual = judgeMan.judge(hand);
         assertEquals("No Hand", actual);
     }
     
@@ -20,7 +20,7 @@ public class HikerTest {
     void OnePair() {
         JudgeMan judgeMan = new JudgeMan();
         String[] hand = {"H2", "C3", "D2", "S5", "H6"};
-        String actual = hiker.judge(hand);
+        String actual = judgeMan.judge(hand);
         assertEquals("One Pair", actual);
     }
 }
