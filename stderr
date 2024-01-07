@@ -1,4 +1,44 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:10: error: cannot find symbol
+        for(i = 0; i < hand.length; i++){
+            ^
+  symbol:   variable i
+  location: class JudgeMan
+JudgeMan.java:10: error: cannot find symbol
+        for(i = 0; i < hand.length; i++){
+                   ^
+  symbol:   variable i
+  location: class JudgeMan
+JudgeMan.java:10: error: cannot find symbol
+        for(i = 0; i < hand.length; i++){
+                                    ^
+  symbol:   variable i
+  location: class JudgeMan
+JudgeMan.java:11: error: cannot find symbol
+            for(k = 1; k < hand.length; k++){
+                ^
+  symbol:   variable k
+  location: class JudgeMan
+JudgeMan.java:11: error: cannot find symbol
+            for(k = 1; k < hand.length; k++){
+                       ^
+  symbol:   variable k
+  location: class JudgeMan
+JudgeMan.java:11: error: cannot find symbol
+            for(k = 1; k < hand.length; k++){
+                                        ^
+  symbol:   variable k
+  location: class JudgeMan
+JudgeMan.java:12: error: cannot find symbol
+                String number = hand[i].substring(1);
+                                     ^
+  symbol:   variable i
+  location: class JudgeMan
+JudgeMan.java:13: error: package system does not exist
+                system.out.println(number);
+                      ^
+JudgeMan.java:16: error: cannot find symbol
+        if(Arrays.equals(hand, twoPair)){
+                               ^
+  symbol:   variable twoPair
+  location: class JudgeMan
+9 errors
