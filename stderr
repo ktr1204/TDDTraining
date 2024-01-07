@@ -1,4 +1,4 @@
-JudgeMan.java:11: error: variable declaration not allowed here
-        int pairStack = 0;
-            ^
+JudgeMan.java:10: error: ';' expected
+            return "Three Card"
+                               ^
 1 error

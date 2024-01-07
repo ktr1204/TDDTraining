@@ -6,7 +6,9 @@ public class JudgeMan {
         
     }
     public static String judge(String[] hand) {
-        if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1)))
+        if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1))){
+            return "Three Card"
+        }
         // Pair判定エリア
         int pairStack = 0;
         for(int i = 0; i < hand.length; i++){
