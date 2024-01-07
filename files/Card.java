@@ -1,5 +1,5 @@
     protected enum Fruits {
-        Banana("Okinawa")
+        Banana("Okinawa"),
         Orange("Ehime"),
         Apple("Aomori");
 
