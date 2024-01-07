@@ -6,13 +6,13 @@ public class JudgeMan {
         
     }
     public static String judge(String[] hand) {
-        // String[] twoPair = {"H2", "C3", "D2", "S3", "H6"};
         for(int i = 0; i < hand.length; i++){
             for(int k = 1; k < hand.length; k++){
                 String number = hand[i].substring(1);
                 System.out.println(number);
             }
         }
+        String[] twoPair = {"H2", "C3", "D2", "S3", "H6"};
         if(Arrays.equals(hand, twoPair)){
             return "Two Pair";
         }
