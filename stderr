@@ -1,4 +1,4 @@
-Card.java:2: error: class Card is already defined in package unnamed package
-    protected enum Card {
-              ^
-1 error
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.

@@ -1,5 +1,4 @@
-public class Card{
-    protected enum Card {
+public enum Card {
     Banana("Okinawa"),
     Orange("Ehime"),
     Apple("Aomori");
@@ -8,5 +7,4 @@ public class Card{
     private Card(String madein) { // コンストラクタの定義
         this.madein = madein;
     }
-}
 }
