@@ -1,4 +1,7 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+Card.java:2: error: ',', '}', or ';' expected
+        Banana("Okinawa")
+                         ^
+Card.java:7: error: invalid method declaration; return type required
+      private Fruit(String madein) { // コンストラクタの定義
+              ^
+2 errors
