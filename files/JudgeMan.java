@@ -13,7 +13,7 @@ public class JudgeMan {
                 System.out.print(i);
                 System.out.print(" number = ");
                 System.out.println(number);
-            for(int k = 0; k < hand.length; k++){
+            for(int k = 1; k < hand.length-1; k++){
                 if(i == k){
                     continue;
                 }

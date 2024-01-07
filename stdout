@@ -8,52 +8,28 @@ k = 2 iのnumber = 2
 pairStack = 0
 k = 3 iのnumber = 2
  kのnumber = 5
-pairStack = 0
-k = 4 iのnumber = 2
- kのnumber = 6
 i = 1 number = 3
-pairStack = 0
-k = 0 iのnumber = 3
- kのnumber = 2
 pairStack = 0
 k = 2 iのnumber = 3
  kのnumber = 4
 pairStack = 0
 k = 3 iのnumber = 3
  kのnumber = 5
-pairStack = 0
-k = 4 iのnumber = 3
- kのnumber = 6
 i = 2 number = 4
-pairStack = 0
-k = 0 iのnumber = 4
- kのnumber = 2
 pairStack = 0
 k = 1 iのnumber = 4
  kのnumber = 3
 pairStack = 0
 k = 3 iのnumber = 4
  kのnumber = 5
-pairStack = 0
-k = 4 iのnumber = 4
- kのnumber = 6
 i = 3 number = 5
-pairStack = 0
-k = 0 iのnumber = 5
- kのnumber = 2
 pairStack = 0
 k = 1 iのnumber = 5
  kのnumber = 3
 pairStack = 0
 k = 2 iのnumber = 5
  kのnumber = 4
-pairStack = 0
-k = 4 iのnumber = 5
- kのnumber = 6
 i = 4 number = 6
-pairStack = 0
-k = 0 iのnumber = 6
- kのnumber = 2
 pairStack = 0
 k = 1 iのnumber = 6
  kのnumber = 3
@@ -73,59 +49,35 @@ k = 2 iのnumber = 2
 pairStack = 1
 k = 3 iのnumber = 2
  kのnumber = 5
-pairStack = 1
-k = 4 iのnumber = 2
- kのnumber = 6
 i = 1 number = 3
-pairStack = 1
-k = 0 iのnumber = 3
- kのnumber = 2
 pairStack = 1
 k = 2 iのnumber = 3
  kのnumber = 2
 pairStack = 1
 k = 3 iのnumber = 3
  kのnumber = 5
-pairStack = 1
-k = 4 iのnumber = 3
- kのnumber = 6
 i = 2 number = 2
-pairStack = 2
-k = 0 iのnumber = 2
- kのnumber = 2
-pairStack = 2
+pairStack = 1
 k = 1 iのnumber = 2
  kのnumber = 3
-pairStack = 2
+pairStack = 1
 k = 3 iのnumber = 2
  kのnumber = 5
-pairStack = 2
-k = 4 iのnumber = 2
- kのnumber = 6
 i = 3 number = 5
-pairStack = 2
-k = 0 iのnumber = 5
- kのnumber = 2
-pairStack = 2
+pairStack = 1
 k = 1 iのnumber = 5
  kのnumber = 3
-pairStack = 2
+pairStack = 1
 k = 2 iのnumber = 5
  kのnumber = 2
-pairStack = 2
-k = 4 iのnumber = 5
- kのnumber = 6
 i = 4 number = 6
-pairStack = 2
-k = 0 iのnumber = 6
- kのnumber = 2
-pairStack = 2
+pairStack = 1
 k = 1 iのnumber = 6
  kのnumber = 3
-pairStack = 2
+pairStack = 1
 k = 2 iのnumber = 6
  kのnumber = 2
-pairStack = 2
+pairStack = 1
 k = 3 iのnumber = 6
  kのnumber = 5
 i = 0 number = 2
@@ -138,84 +90,47 @@ k = 2 iのnumber = 2
 pairStack = 1
 k = 3 iのnumber = 2
  kのnumber = 3
-pairStack = 1
-k = 4 iのnumber = 2
- kのnumber = 6
 i = 1 number = 3
-pairStack = 1
-k = 0 iのnumber = 3
- kのnumber = 2
 pairStack = 1
 k = 2 iのnumber = 3
  kのnumber = 2
 pairStack = 2
 k = 3 iのnumber = 3
  kのnumber = 3
-pairStack = 2
-k = 4 iのnumber = 3
- kのnumber = 6
 i = 2 number = 2
-pairStack = 3
-k = 0 iのnumber = 2
- kのnumber = 2
-pairStack = 3
+pairStack = 2
 k = 1 iのnumber = 2
  kのnumber = 3
-pairStack = 3
+pairStack = 2
 k = 3 iのnumber = 2
  kのnumber = 3
-pairStack = 3
-k = 4 iのnumber = 2
- kのnumber = 6
 i = 3 number = 3
 pairStack = 3
-k = 0 iのnumber = 3
- kのnumber = 2
-pairStack = 4
 k = 1 iのnumber = 3
  kのnumber = 3
-pairStack = 4
+pairStack = 3
 k = 2 iのnumber = 3
  kのnumber = 2
-pairStack = 4
-k = 4 iのnumber = 3
- kのnumber = 6
 i = 4 number = 6
-pairStack = 4
-k = 0 iのnumber = 6
- kのnumber = 2
-pairStack = 4
+pairStack = 3
 k = 1 iのnumber = 6
  kのnumber = 3
-pairStack = 4
+pairStack = 3
 k = 2 iのnumber = 6
  kのnumber = 2
-pairStack = 4
+pairStack = 3
 k = 3 iのnumber = 6
  kのnumber = 3
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
 |   +-- NoHand [OK]
-|   +-- OnePair [X] expected: <One Pair> but was: <Two Pair>
+|   +-- OnePair [OK]
 |   '-- TwoPair [X] expected: <Two Pair> but was: <No Hand>
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (2):
-  JUnit Jupiter:JudgeManTest:OnePair
-    MethodSource [className = 'JudgeManTest', methodName = 'OnePair', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <One Pair> but was: <Two Pair>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.OnePair(JudgeManTest.java:24)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Failures (1):
   JUnit Jupiter:JudgeManTest:TwoPair
     MethodSource [className = 'JudgeManTest', methodName = 'TwoPair', methodParameterTypes = '']
     => org.opentest4j.AssertionFailedError: expected: <Two Pair> but was: <No Hand>
@@ -230,7 +145,7 @@ Failures (2):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 223 ms
+Test run finished after 160 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -241,6 +156,6 @@ Test run finished after 223 ms
 [         0 tests skipped         ]
 [         3 tests started         ]
 [         0 tests aborted         ]
-[         1 tests successful      ]
-[         2 tests failed          ]
+[         2 tests successful      ]
+[         1 tests failed          ]
 
