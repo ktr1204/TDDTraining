@@ -1,6 +1,4 @@
-Hiker.java:10: error: cannot find symbol
-        if(Arrays.equals(hand, aaa)){
-                               ^
-  symbol:   variable aaa
-  location: class Hiker
-1 error
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
