@@ -30,10 +30,9 @@ public class JudgeMan {
                     return "One Pair";
                   case 2:
                     return "Two Pair";
-                  default:
-                    return "No Hand";
                 }
             }
         }
+                    return "No Hand";
     }
 }

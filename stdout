@@ -1,0 +1,46 @@
+i = 0 number = 2
+0k = 1 number = 3
+0k = 2 number = 4
+0k = 3 number = 5
+0k = 4 number = 6
+i = 1 number = 3
+0k = 0 number = 2
+0k = 2 number = 4
+0k = 3 number = 5
+0k = 4 number = 6
+i = 2 number = 4
+0k = 0 number = 2
+0k = 1 number = 3
+0k = 3 number = 5
+0k = 4 number = 6
+i = 3 number = 5
+0k = 0 number = 2
+0k = 1 number = 3
+0k = 2 number = 4
+0k = 4 number = 6
+i = 4 number = 6
+0k = 0 number = 2
+0k = 1 number = 3
+0k = 2 number = 4
+0k = 3 number = 5
+.
++-- JUnit Jupiter [OK]
+| '-- JudgeManTest [OK]
+|   '-- NoHand [OK]
++-- JUnit Vintage [OK]
+'-- JUnit Platform Suite [OK]
+
+Test run finished after 150 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         0 tests failed          ]
+
