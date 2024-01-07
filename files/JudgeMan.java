@@ -13,6 +13,9 @@ public class JudgeMan {
                 System.out.print(" number = ");
                 System.out.println(numberi);
             for(int k = 1; k < hand.length; k++){
+                if(i == k){
+                    continue;
+                }
                 String numberk = hand[k].substring(1);
                 System.out.print("k = ");
                 System.out.print(k);
