@@ -1,6 +1,56 @@
 i = 0 iのnumber = 2
 k = 1 kのnumber = 3
 pairStack = 0
+k = 2 kのnumber = 4
+pairStack = 0
+k = 3 kのnumber = 5
+pairStack = 0
+k = 4 kのnumber = 6
+pairStack = 0
+i = 1 iのnumber = 3
+k = 2 kのnumber = 4
+pairStack = 0
+k = 3 kのnumber = 5
+pairStack = 0
+k = 4 kのnumber = 6
+pairStack = 0
+i = 2 iのnumber = 4
+k = 3 kのnumber = 5
+pairStack = 0
+k = 4 kのnumber = 6
+pairStack = 0
+i = 3 iのnumber = 5
+k = 4 kのnumber = 6
+pairStack = 0
+i = 4 iのnumber = 6
+i = 0 iのnumber = 2
+k = 1 kのnumber = 3
+pairStack = 0
+k = 2 kのnumber = 2
+pairStack = 1
+k = 3 kのnumber = 5
+pairStack = 1
+k = 4 kのnumber = 6
+pairStack = 1
+i = 1 iのnumber = 3
+k = 2 kのnumber = 2
+pairStack = 1
+k = 3 kのnumber = 5
+pairStack = 1
+k = 4 kのnumber = 6
+pairStack = 1
+i = 2 iのnumber = 2
+k = 3 kのnumber = 5
+pairStack = 1
+k = 4 kのnumber = 6
+pairStack = 1
+i = 3 iのnumber = 5
+k = 4 kのnumber = 6
+pairStack = 1
+i = 4 iのnumber = 6
+i = 0 iのnumber = 2
+k = 1 kのnumber = 3
+pairStack = 0
 k = 2 kのnumber = 2
 pairStack = 1
 k = 3 kのnumber = 3
@@ -26,21 +76,23 @@ i = 4 iのnumber = 6
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
+|   +-- NoHand [OK]
+|   +-- OnePair [OK]
 |   '-- TwoPair [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Test run finished after 132 ms
+Test run finished after 167 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
 [         0 containers aborted    ]
 [         4 containers successful ]
 [         0 containers failed     ]
-[         1 tests found           ]
+[         3 tests found           ]
 [         0 tests skipped         ]
-[         1 tests started         ]
+[         3 tests started         ]
 [         0 tests aborted         ]
-[         1 tests successful      ]
+[         3 tests successful      ]
 [         0 tests failed          ]
 
