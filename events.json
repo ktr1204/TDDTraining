@@ -923,5 +923,21 @@
       42,
       693733
     ]
+  },
+  {
+    "duration": 2.321554,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 58,
+    "time": [
+      2024,
+      1,
+      7,
+      15,
+      31,
+      46,
+      83385
+    ]
   }
 ]
