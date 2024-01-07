@@ -11,7 +11,7 @@ public class JudgeMan {
                 String number = hand[i].substring(1);
                 System.out.print("i = ");
                 System.out.print(i);
-                System.out.print(" number = ");
+                System.out.print(" iのnumber = ");
                 System.out.println(number);
             for(int k = 1; k < hand.length-1; k++){
                 if(i == k){
@@ -24,8 +24,6 @@ public class JudgeMan {
                 System.out.println(pairStack);
                 System.out.print("k = ");
                 System.out.print(k);
-                System.out.print(" iのnumber = ");
-                System.out.println(hand[i].substring(1));
                 System.out.print(" kのnumber = ");
                 System.out.println(hand[k].substring(1));
             }
