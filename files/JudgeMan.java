@@ -35,6 +35,6 @@ public class JudgeMan {
         return "No Hand";
     }
     private String efudaCut(int i){
-        
+        return null;
     }
 }
