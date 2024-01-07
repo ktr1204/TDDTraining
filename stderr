@@ -1,4 +1,4 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:14: error: variable number is already defined in method judge(String[])
+                String number = hand[k].substring(1);
+                       ^
+1 error
