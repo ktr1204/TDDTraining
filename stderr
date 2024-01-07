@@ -1,6 +1,4 @@
-JudgeMan.java:12: error: cannot find symbol
+JudgeMan.java:12: error: non-static method pairJudge(String[]) cannot be referenced from a static context
         String ans = pairJudge(hand);
                      ^
-  symbol:   method pairJudge(String[])
-  location: class JudgeMan
 1 error
