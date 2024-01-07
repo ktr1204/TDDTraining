@@ -1,7 +1,6 @@
-JudgeMan.java:13: error: missing return statement
-    }
-    ^
-JudgeMan.java:38: error: missing return statement
-    }
-    ^
-2 errors
+JudgeMan.java:12: error: cannot find symbol
+        String ans = pairJudge(hand);
+                     ^
+  symbol:   method pairJudge(String[])
+  location: class JudgeMan
+1 error

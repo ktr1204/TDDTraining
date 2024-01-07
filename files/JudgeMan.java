@@ -9,7 +9,8 @@ public class JudgeMan {
         if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1))){
             return "Three Card";
         }
-        
+        String ans = pairJudge(hand);
+        return ans;
     }
     // Pair判定エリア
     private String pairjudge(String[] hand){
