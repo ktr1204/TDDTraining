@@ -971,5 +971,21 @@
       11,
       523964
     ]
+  },
+  {
+    "duration": 5.107929,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 61,
+    "time": [
+      2024,
+      1,
+      7,
+      15,
+      34,
+      48,
+      585436
+    ]
   }
 ]

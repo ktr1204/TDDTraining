@@ -1,4 +1,4 @@
-000000000000000000000101.
+0000000000000000000001110111.
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
 |   +-- NoHand [OK]
@@ -22,7 +22,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 141 ms
+Test run finished after 153 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]

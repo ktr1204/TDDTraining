@@ -25,13 +25,14 @@ public class JudgeMan {
                 //System.out.print(k);
                 //System.out.print(" number = ");
                 //System.out.println(hand[k].substring(1));
+            }
+            
                 switch (pairStack){
                   case 1:
                     return "One Pair";
                   case 2:
                     return "Two Pair";
                 }
-            }
         }
                     return "No Hand";
     }
