@@ -37,4 +37,11 @@ public class JudgeManTest {
         String actual = judgeMan.judge(hand);
         assertEquals("Two Pair", actual);
     }
+    @Test
+    void TwoPair2() {
+        JudgeMan judgeMan = new JudgeMan();
+        String[] hand = {"H2", "D2", "C3", "S3", "H6"};
+        String actual = judgeMan.judge(hand);
+        assertEquals("Two Pair", actual);
+    }
 }

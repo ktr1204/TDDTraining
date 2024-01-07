@@ -74,6 +74,31 @@ k = 4 kのnumber = 6
 pairStack = 2
 i = 4 iのnumber = 6
 i = 0 iのnumber = 2
+k = 1 kのnumber = 2
+pairStack = 1
+k = 2 kのnumber = 3
+pairStack = 1
+k = 3 kのnumber = 3
+pairStack = 1
+k = 4 kのnumber = 6
+pairStack = 1
+i = 1 iのnumber = 2
+k = 2 kのnumber = 3
+pairStack = 1
+k = 3 kのnumber = 3
+pairStack = 1
+k = 4 kのnumber = 6
+pairStack = 1
+i = 2 iのnumber = 3
+k = 3 kのnumber = 3
+pairStack = 2
+k = 4 kのnumber = 6
+pairStack = 2
+i = 3 iのnumber = 3
+k = 4 kのnumber = 6
+pairStack = 2
+i = 4 iのnumber = 6
+i = 0 iのnumber = 2
 k = 1 kのnumber = 3
 pairStack = 0
 k = 2 kのnumber = 6
@@ -104,21 +129,22 @@ i = 4 iのnumber = 2
 |   +-- NoHand [OK]
 |   +-- OnePair [OK]
 |   +-- TwoPair [OK]
+|   +-- TwoPair2 [OK]
 |   '-- OnePair2 [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Test run finished after 108 ms
+Test run finished after 184 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
 [         0 containers aborted    ]
 [         4 containers successful ]
 [         0 containers failed     ]
-[         4 tests found           ]
+[         5 tests found           ]
 [         0 tests skipped         ]
-[         4 tests started         ]
+[         5 tests started         ]
 [         0 tests aborted         ]
-[         4 tests successful      ]
+[         5 tests successful      ]
 [         0 tests failed          ]
 
