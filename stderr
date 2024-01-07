@@ -1,9 +1,6 @@
-JudgeMan.java:13: error: package system does not exist
-                system.out.println(number);
-                      ^
 JudgeMan.java:16: error: cannot find symbol
         if(Arrays.equals(hand, twoPair)){
                                ^
   symbol:   variable twoPair
   location: class JudgeMan
-2 errors
+1 error

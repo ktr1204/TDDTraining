@@ -10,7 +10,7 @@ public class JudgeMan {
         for(int i = 0; i < hand.length; i++){
             for(int k = 1; k < hand.length; k++){
                 String number = hand[i].substring(1);
-                system.out.println(number);
+                System.out.println(number);
             }
         }
         if(Arrays.equals(hand, twoPair)){
