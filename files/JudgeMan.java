@@ -6,6 +6,7 @@ public class JudgeMan {
         
     }
     public static String judge(String[] hand) {
+        int pairStack = 0;
         for(int i = 0; i < hand.length; i++){
                 String number = hand[i].substring(1);
                 System.out.print("i = ");
@@ -17,18 +18,22 @@ public class JudgeMan {
                     continue;
                 }
                 if(number.equals(hand[k].substring(1))){
-                    return "One Pair";
+                    pairStack++;
                 }
+                System.out.print(pairStack);
                 System.out.print("k = ");
                 System.out.print(k);
                 System.out.print(" number = ");
                 System.out.println(hand[k].substring(1));
+                switch (pairStack){
+                  case 1:
+                    return "One Pair";
+                  case 2:
+                    return "Two Pair";
+                  default:
+                    return "No Hand";
+                }
             }
         }
-        String[] twoPair = {"H2", "C3", "D2", "S3", "H6"};
-        if(Arrays.equals(hand, twoPair)){
-            return "Two Pair";
-        }
-            return "No Hand";
     }
 }
