@@ -24,7 +24,9 @@ public class JudgeMan {
                 System.out.println(pairStack);
                 System.out.print("k = ");
                 System.out.print(k);
-                System.out.print(" number = ");
+                System.out.print(" iのnumber = ");
+                System.out.println(hand[i].substring(1));
+                System.out.print(" kのnumber = ");
                 System.out.println(hand[k].substring(1));
             }
         }

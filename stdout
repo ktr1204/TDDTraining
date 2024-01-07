@@ -1,138 +1,198 @@
 i = 0 number = 2
 pairStack = 0
-k = 1 number = 3
+k = 1 iのnumber = 2
+ kのnumber = 3
 pairStack = 0
-k = 2 number = 4
+k = 2 iのnumber = 2
+ kのnumber = 4
 pairStack = 0
-k = 3 number = 5
+k = 3 iのnumber = 2
+ kのnumber = 5
 pairStack = 0
-k = 4 number = 6
+k = 4 iのnumber = 2
+ kのnumber = 6
 i = 1 number = 3
 pairStack = 0
-k = 0 number = 2
+k = 0 iのnumber = 3
+ kのnumber = 2
 pairStack = 0
-k = 2 number = 4
+k = 2 iのnumber = 3
+ kのnumber = 4
 pairStack = 0
-k = 3 number = 5
+k = 3 iのnumber = 3
+ kのnumber = 5
 pairStack = 0
-k = 4 number = 6
+k = 4 iのnumber = 3
+ kのnumber = 6
 i = 2 number = 4
 pairStack = 0
-k = 0 number = 2
+k = 0 iのnumber = 4
+ kのnumber = 2
 pairStack = 0
-k = 1 number = 3
+k = 1 iのnumber = 4
+ kのnumber = 3
 pairStack = 0
-k = 3 number = 5
+k = 3 iのnumber = 4
+ kのnumber = 5
 pairStack = 0
-k = 4 number = 6
+k = 4 iのnumber = 4
+ kのnumber = 6
 i = 3 number = 5
 pairStack = 0
-k = 0 number = 2
+k = 0 iのnumber = 5
+ kのnumber = 2
 pairStack = 0
-k = 1 number = 3
+k = 1 iのnumber = 5
+ kのnumber = 3
 pairStack = 0
-k = 2 number = 4
+k = 2 iのnumber = 5
+ kのnumber = 4
 pairStack = 0
-k = 4 number = 6
+k = 4 iのnumber = 5
+ kのnumber = 6
 i = 4 number = 6
 pairStack = 0
-k = 0 number = 2
+k = 0 iのnumber = 6
+ kのnumber = 2
 pairStack = 0
-k = 1 number = 3
+k = 1 iのnumber = 6
+ kのnumber = 3
 pairStack = 0
-k = 2 number = 4
+k = 2 iのnumber = 6
+ kのnumber = 4
 pairStack = 0
-k = 3 number = 5
+k = 3 iのnumber = 6
+ kのnumber = 5
 i = 0 number = 2
 pairStack = 0
-k = 1 number = 3
+k = 1 iのnumber = 2
+ kのnumber = 3
 pairStack = 1
-k = 2 number = 2
+k = 2 iのnumber = 2
+ kのnumber = 2
 pairStack = 1
-k = 3 number = 5
+k = 3 iのnumber = 2
+ kのnumber = 5
 pairStack = 1
-k = 4 number = 6
+k = 4 iのnumber = 2
+ kのnumber = 6
 i = 1 number = 3
 pairStack = 1
-k = 0 number = 2
+k = 0 iのnumber = 3
+ kのnumber = 2
 pairStack = 1
-k = 2 number = 2
+k = 2 iのnumber = 3
+ kのnumber = 2
 pairStack = 1
-k = 3 number = 5
+k = 3 iのnumber = 3
+ kのnumber = 5
 pairStack = 1
-k = 4 number = 6
+k = 4 iのnumber = 3
+ kのnumber = 6
 i = 2 number = 2
 pairStack = 2
-k = 0 number = 2
+k = 0 iのnumber = 2
+ kのnumber = 2
 pairStack = 2
-k = 1 number = 3
+k = 1 iのnumber = 2
+ kのnumber = 3
 pairStack = 2
-k = 3 number = 5
+k = 3 iのnumber = 2
+ kのnumber = 5
 pairStack = 2
-k = 4 number = 6
+k = 4 iのnumber = 2
+ kのnumber = 6
 i = 3 number = 5
 pairStack = 2
-k = 0 number = 2
+k = 0 iのnumber = 5
+ kのnumber = 2
 pairStack = 2
-k = 1 number = 3
+k = 1 iのnumber = 5
+ kのnumber = 3
 pairStack = 2
-k = 2 number = 2
+k = 2 iのnumber = 5
+ kのnumber = 2
 pairStack = 2
-k = 4 number = 6
+k = 4 iのnumber = 5
+ kのnumber = 6
 i = 4 number = 6
 pairStack = 2
-k = 0 number = 2
+k = 0 iのnumber = 6
+ kのnumber = 2
 pairStack = 2
-k = 1 number = 3
+k = 1 iのnumber = 6
+ kのnumber = 3
 pairStack = 2
-k = 2 number = 2
+k = 2 iのnumber = 6
+ kのnumber = 2
 pairStack = 2
-k = 3 number = 5
+k = 3 iのnumber = 6
+ kのnumber = 5
 i = 0 number = 2
 pairStack = 0
-k = 1 number = 3
+k = 1 iのnumber = 2
+ kのnumber = 3
 pairStack = 1
-k = 2 number = 2
+k = 2 iのnumber = 2
+ kのnumber = 2
 pairStack = 1
-k = 3 number = 3
+k = 3 iのnumber = 2
+ kのnumber = 3
 pairStack = 1
-k = 4 number = 6
+k = 4 iのnumber = 2
+ kのnumber = 6
 i = 1 number = 3
 pairStack = 1
-k = 0 number = 2
+k = 0 iのnumber = 3
+ kのnumber = 2
 pairStack = 1
-k = 2 number = 2
+k = 2 iのnumber = 3
+ kのnumber = 2
 pairStack = 2
-k = 3 number = 3
+k = 3 iのnumber = 3
+ kのnumber = 3
 pairStack = 2
-k = 4 number = 6
+k = 4 iのnumber = 3
+ kのnumber = 6
 i = 2 number = 2
 pairStack = 3
-k = 0 number = 2
+k = 0 iのnumber = 2
+ kのnumber = 2
 pairStack = 3
-k = 1 number = 3
+k = 1 iのnumber = 2
+ kのnumber = 3
 pairStack = 3
-k = 3 number = 3
+k = 3 iのnumber = 2
+ kのnumber = 3
 pairStack = 3
-k = 4 number = 6
+k = 4 iのnumber = 2
+ kのnumber = 6
 i = 3 number = 3
 pairStack = 3
-k = 0 number = 2
+k = 0 iのnumber = 3
+ kのnumber = 2
 pairStack = 4
-k = 1 number = 3
+k = 1 iのnumber = 3
+ kのnumber = 3
 pairStack = 4
-k = 2 number = 2
+k = 2 iのnumber = 3
+ kのnumber = 2
 pairStack = 4
-k = 4 number = 6
+k = 4 iのnumber = 3
+ kのnumber = 6
 i = 4 number = 6
 pairStack = 4
-k = 0 number = 2
+k = 0 iのnumber = 6
+ kのnumber = 2
 pairStack = 4
-k = 1 number = 3
+k = 1 iのnumber = 6
+ kのnumber = 3
 pairStack = 4
-k = 2 number = 2
+k = 2 iのnumber = 6
+ kのnumber = 2
 pairStack = 4
-k = 3 number = 3
+k = 3 iのnumber = 6
+ kのnumber = 3
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
@@ -170,7 +230,7 @@ Failures (2):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 156 ms
+Test run finished after 223 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
