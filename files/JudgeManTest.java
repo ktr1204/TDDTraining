@@ -51,4 +51,11 @@ public class JudgeManTest {
         String actual = judgeMan.judge(hand);
         assertEquals("Three Card", actual);
     }
+    @Test
+    void Straight() {
+        JudgeMan judgeMan = new JudgeMan();
+        String[] hand = {"H2", "D3", "C4", "S5", "H6"};
+        String actual = judgeMan.judge(hand);
+        assertEquals("Straight", actual);
+    }
 }

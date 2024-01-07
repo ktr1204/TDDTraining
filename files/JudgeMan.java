@@ -12,6 +12,7 @@ public class JudgeMan {
         String ans = pairJudge(hand);
         return ans;
     }
+    
     // Pair判定エリア
     private static String pairJudge(String[] hand){
         int pairStack = 0;
