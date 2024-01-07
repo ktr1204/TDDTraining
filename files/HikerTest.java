@@ -15,4 +15,12 @@ public class HikerTest {
         String actual = hiker.judge(hand);
         assertEquals("No Hand", actual);
     }
+    
+    @Test
+    void OnePair() {
+        Hiker hiker = new Hiker();
+        String[] hand = {"H2", "C3", "D2", "S5", "H6"};
+        String actual = hiker.judge(hand);
+        assertEquals("One Pair", actual);
+    }
 }
