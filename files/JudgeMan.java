@@ -7,13 +7,13 @@ public class JudgeMan {
     }
     public static String judge(String[] hand) {
         for(int i = 0; i < hand.length; i++){
-                String number = hand[i].substring(1);
+                String numberi = hand[i].substring(1);
                 System.out.print(i);
-                System.out.println(number);
+                System.out.println(numberi);
             for(int k = 1; k < hand.length; k++){
-                String number = hand[k].substring(1);
+                String numberk = hand[k].substring(1);
                 System.out.print(k);
-                System.out.println(number);
+                System.out.println(numberk);
             }
         }
         String[] twoPair = {"H2", "C3", "D2", "S3", "H6"};
