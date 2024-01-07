@@ -1291,5 +1291,21 @@
       9,
       7763
     ]
+  },
+  {
+    "duration": 3.317317,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 81,
+    "time": [
+      2024,
+      1,
+      7,
+      16,
+      12,
+      14,
+      292051
+    ]
   }
 ]

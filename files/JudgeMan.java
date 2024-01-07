@@ -13,7 +13,7 @@ public class JudgeMan {
         return ans;
     }
     // Pair判定エリア
-    private String pairJudge(String[] hand){
+    private static String pairJudge(String[] hand){
         int pairStack = 0;
         for(int i = 0; i < hand.length; i++){
                 String number = hand[i].substring(1);
