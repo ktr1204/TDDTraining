@@ -1,11 +1,4 @@
-JudgeMan.java:25: error: cannot find symbol
-        ans = pairJudge(hand);
-        ^
-  symbol:   variable ans
-  location: class JudgeMan
-JudgeMan.java:26: error: cannot find symbol
-        return ans;
-               ^
-  symbol:   variable ans
-  location: class JudgeMan
-2 errors
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
