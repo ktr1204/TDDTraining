@@ -25,12 +25,9 @@ public class JudgeMan {
                     continue;
                 }
                 if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
-                    pairStack++;
+                    return "Three Card";
                 }
             }
-        }
-        if(intArray){
-            return "Three Card";
         }
         String ans = pairJudge(hand);
         return ans;
