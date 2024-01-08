@@ -10,7 +10,7 @@ public class JudgeMan {
         Arrays.sort(intArray);
         // String ans = straightJudge(intArray);
     // Straight判定エリア
-        int counter = 0
+        int counter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
                 counter++;

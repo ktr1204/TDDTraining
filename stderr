@@ -1,4 +1,11 @@
-JudgeMan.java:13: error: ';' expected
-        int counter = 0
-                       ^
-1 error
+JudgeMan.java:25: error: cannot find symbol
+        ans = pairJudge(hand);
+        ^
+  symbol:   variable ans
+  location: class JudgeMan
+JudgeMan.java:26: error: cannot find symbol
+        return ans;
+               ^
+  symbol:   variable ans
+  location: class JudgeMan
+2 errors
