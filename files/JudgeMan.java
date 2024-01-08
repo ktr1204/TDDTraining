@@ -9,9 +9,6 @@ public class JudgeMan {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
         String ans = straightJudge(intArray);
-        if(hand[0].substring(1).equals("2") && hand[1].substring(1).equals("3") && hand[2].substring(1).equals("4") && hand[3].substring(1).equals("5") && hand[4].substring(1).equals("6")){
-            return "Straight";
-        }
         if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1))){
             return "Three Card";
         }
