@@ -13,7 +13,7 @@ public class JudgeMan {
         int counter = 0
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
-                counter++
+                counter++;
             }
         }
         if(counter == 4){

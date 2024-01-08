@@ -1,7 +1,4 @@
 JudgeMan.java:13: error: ';' expected
         int counter = 0
                        ^
-JudgeMan.java:16: error: ';' expected
-                counter++
-                         ^
-2 errors
+1 error
