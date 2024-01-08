@@ -12,9 +12,6 @@ public class JudgeMan {
         if (Arrays.stream(intArray).allMatch(i -> intArray[i] == (intArray[i] + 1))){
             return "Straight";
         }
-        if((intArray[0] + 4) == (intArray[1] + 3) == (intArray[2] + 2) == (intArray[3] + 1) == intArray[4]){
-            return "Straight";
-        }
         if(hand[0].substring(1).equals("2") && hand[1].substring(1).equals("3") && hand[2].substring(1).equals("4") && hand[3].substring(1).equals("5") && hand[4].substring(1).equals("6")){
             return "Straight";
         }
