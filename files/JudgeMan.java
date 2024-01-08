@@ -42,7 +42,7 @@ public class JudgeMan {
         int[] intArray = [5];
         for(int i = 0; i < args.length; i++){
 
-            intArray[i] = Integer.toInt(args[i])
+            intArray[i] = Integer.toInt(args[i]);
         }
         return intArray;
     }
