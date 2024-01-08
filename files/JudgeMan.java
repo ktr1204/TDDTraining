@@ -41,7 +41,9 @@ public class JudgeMan {
     private int[] efudaCut(String[] args){
         int[] intArray = [5];
         for(int i = 0; i < args.length; i++){
-            
-        return null;
+
+            intArray[i] = Integer.toInt(args[i])
+        }
+        return intArray;
     }
 }

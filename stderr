@@ -1,7 +1,7 @@
 JudgeMan.java:42: error: illegal start of expression
         int[] intArray = [5];
                          ^
-JudgeMan.java:47: error: reached end of file while parsing
-}
- ^
+JudgeMan.java:45: error: ';' expected
+            intArray[i] = Integer.toInt(args[i])
+                                                ^
 2 errors
