@@ -1,7 +1,4 @@
-JudgeMan.java:12: error: incompatible types: boolean cannot be converted to String
-            if (intArray[i] != intArray[i - 1] + 1) return false;
-                                                           ^
-JudgeMan.java:14: error: incompatible types: boolean cannot be converted to String
-        return true;
-               ^
-2 errors
+JudgeMan.java:19: error: unreachable statement
+        if (Arrays.stream(intArray).allMatch(i -> intArray[i] == (intArray[i] + 1))){
+        ^
+1 error
