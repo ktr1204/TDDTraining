@@ -56,7 +56,7 @@ public class JudgeMan {
     
     // Straight判定エリア
     private static String straightJudge(int[] intArray){
-            for(int i = 1; i < hand.length; i++){
+            for(int i = 1; i < intArray.length; i++){
             if (intArray[i] != intArray[i - 1] + 1){
                 continue;
             }else {
