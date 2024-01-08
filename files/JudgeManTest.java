@@ -11,7 +11,7 @@ public class JudgeManTest {
     @Test
     void NoHand() {
         JudgeMan judgeMan = new JudgeMan();
-        String[] hand = {"H2", "C3", "D4", "S5", "H6"};
+        String[] hand = {"H2", "C3", "D9", "S5", "H6"};
         String actual = judgeMan.judge(hand);
         assertEquals("No Hand", actual);
     }
