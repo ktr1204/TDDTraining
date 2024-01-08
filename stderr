@@ -1,4 +1,14 @@
-JudgeMan.java:67: error: reached end of file while parsing
-}
- ^
-1 error
+JudgeMan.java:21: error: variable ans is already defined in method judge(String[])
+        String ans = pairJudge(hand);
+               ^
+JudgeMan.java:60: error: cannot find symbol
+            if (intArray[i] != intArray[i - 1] + 1){
+                ^
+  symbol:   variable intArray
+  location: class JudgeMan
+JudgeMan.java:60: error: cannot find symbol
+            if (intArray[i] != intArray[i - 1] + 1){
+                               ^
+  symbol:   variable intArray
+  location: class JudgeMan
+3 errors

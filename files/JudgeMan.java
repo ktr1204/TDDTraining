@@ -64,4 +64,5 @@ public class JudgeMan {
             }
         }
     return "Straight";
+    }
 }
