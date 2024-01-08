@@ -63,5 +63,5 @@ public class JudgeMan {
                 return "No Hand";
             }
         }
-    
+    return "Straight";
 }
