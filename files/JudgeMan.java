@@ -55,13 +55,11 @@ public class JudgeMan {
     private static String straightJudge(int[] intArray){
             for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
-                System.out.println(intArray[i]);
                 continue;
             }else {
                 return "No Hand";
             }
         }
-                System.out.println("ここきたよ");
     return "Straight";
     }
 }
