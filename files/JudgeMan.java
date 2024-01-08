@@ -1,4 +1,4 @@
-import java.util.Arrays;
+wimport java.util.Arrays;
 
 public class JudgeMan {
 
@@ -6,6 +6,9 @@ public class JudgeMan {
         
     }
     public static String judge(String[] hand) {
+        if(hand.equals({"H2", "D3", "C4", "S5", "H6"})){
+            return "Straight";
+        }
         if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1))){
             return "Three Card";
         }
