@@ -1,103 +1,17 @@
-.
+[I@13ad5cd3[I@1b84f475[I@7749bf93[I@13330ac6[I@539d019[I@39a2bb97[I@3ad2e17.
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
-|   +-- NoHand [X] For input string: "H2"
-|   +-- OnePair [X] For input string: "H2"
-|   +-- ThreeCard [X] For input string: "H2"
-|   +-- TwoPair [X] For input string: "H2"
-|   +-- Straight [X] For input string: "H2"
-|   +-- TwoPair2 [X] For input string: "H2"
-|   '-- OnePair2 [X] For input string: "H2"
+|   +-- NoHand [OK]
+|   +-- OnePair [OK]
+|   +-- ThreeCard [OK]
+|   +-- TwoPair [OK]
+|   +-- Straight [OK]
+|   +-- TwoPair2 [OK]
+|   '-- OnePair2 [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (7):
-  JUnit Jupiter:JudgeManTest:NoHand
-    MethodSource [className = 'JudgeManTest', methodName = 'NoHand', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.NoHand(JudgeManTest.java:15)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:OnePair
-    MethodSource [className = 'JudgeManTest', methodName = 'OnePair', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.OnePair(JudgeManTest.java:23)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:ThreeCard
-    MethodSource [className = 'JudgeManTest', methodName = 'ThreeCard', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.ThreeCard(JudgeManTest.java:51)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:TwoPair
-    MethodSource [className = 'JudgeManTest', methodName = 'TwoPair', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.TwoPair(JudgeManTest.java:37)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:Straight
-    MethodSource [className = 'JudgeManTest', methodName = 'Straight', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.Straight(JudgeManTest.java:58)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:TwoPair2
-    MethodSource [className = 'JudgeManTest', methodName = 'TwoPair2', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.TwoPair2(JudgeManTest.java:44)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:OnePair2
-    MethodSource [className = 'JudgeManTest', methodName = 'OnePair2', methodParameterTypes = '']
-    => java.lang.NumberFormatException: For input string: "H2"
-       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-       java.base/java.lang.Integer.parseInt(Integer.java:661)
-       java.base/java.lang.Integer.parseInt(Integer.java:777)
-       JudgeMan.numCut(JudgeMan.java:48)
-       JudgeMan.judge(JudgeMan.java:9)
-       JudgeManTest.OnePair2(JudgeManTest.java:30)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 175 ms
+Test run finished after 151 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -108,6 +22,6 @@ Test run finished after 175 ms
 [         0 tests skipped         ]
 [         7 tests started         ]
 [         0 tests aborted         ]
-[         0 tests successful      ]
-[         7 tests failed          ]
+[         7 tests successful      ]
+[         0 tests failed          ]
 

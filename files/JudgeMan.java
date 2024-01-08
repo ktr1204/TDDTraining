@@ -45,7 +45,7 @@ public class JudgeMan {
     private static int[] numCut(String[] args){
         int[] intArray = new int[5];
         for(int i = 0; i < args.length; i++){
-            intArray[i] = Integer.parseInt(args[i]);
+            intArray[i] = Integer.parseInt(args[i].substring(1));
         }
         return intArray;
     }
