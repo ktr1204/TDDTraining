@@ -8,7 +8,7 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
-        String ans = straightJudge(hand);
+        String ans = straightJudge(intArray);
         if (Arrays.stream(intArray).allMatch(i -> intArray[i] == (intArray[i] + 1))){
             return "Straight";
         }
@@ -55,7 +55,7 @@ public class JudgeMan {
     }
     
     // Straight判定エリア
-    private static String straightJudge(String[] hand){
+    private static String straightJudge(int[] intArray){
             for(int i = 1; i < hand.length; i++){
             if (intArray[i] != intArray[i - 1] + 1){
                 continue;

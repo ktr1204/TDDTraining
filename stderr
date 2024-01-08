@@ -1,11 +1,6 @@
-JudgeMan.java:60: error: cannot find symbol
-            if (intArray[i] != intArray[i - 1] + 1){
-                ^
-  symbol:   variable intArray
-  location: class JudgeMan
-JudgeMan.java:60: error: cannot find symbol
-            if (intArray[i] != intArray[i - 1] + 1){
+JudgeMan.java:59: error: cannot find symbol
+            for(int i = 1; i < hand.length; i++){
                                ^
-  symbol:   variable intArray
+  symbol:   variable hand
   location: class JudgeMan
-2 errors
+1 error
