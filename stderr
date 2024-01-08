@@ -1,4 +1,9 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:28: error: cannot find symbol
+                    pairStack++;
+                    ^
+  symbol:   variable pairStack
+  location: class JudgeMan
+JudgeMan.java:32: error: incompatible types: int[] cannot be converted to boolean
+        if(intArray){
+           ^
+2 errors

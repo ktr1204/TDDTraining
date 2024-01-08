@@ -8,8 +8,7 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
-        // String ans = straightJudge(intArray);
-    // Straight判定エリア
+        // Straight判定エリア
         int counter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
@@ -19,7 +18,18 @@ public class JudgeMan {
         if(counter == 4){
             return "Straight";
         }
-        if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1))){
+        // ThreeCard判定エリア
+        for(int i = 0; i < 2; i++){
+            for(int k = i + 1; k < intArray.length; k++){
+                if(i == k){
+                    continue;
+                }
+                if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
+                    pairStack++;
+                }
+            }
+        }
+        if(intArray){
             return "Three Card";
         }
         String ans = pairJudge(hand);
@@ -30,7 +40,7 @@ public class JudgeMan {
     private static String pairJudge(String[] hand){
         int pairStack = 0;
         for(int i = 0; i < hand.length; i++){
-                String number = hand[i].substring(1);
+            String number = hand[i].substring(1);
             for(int k = i + 1; k < hand.length; k++){
                 if(i == k){
                     continue;
@@ -49,7 +59,7 @@ public class JudgeMan {
         return "No Hand";
     }
     
-    // 数字部分のみ切り出す
+    // 数字部分をint型で切り出す
     private static int[] numCut(String[] args){
         int[] intArray = new int[5];
         for(int i = 0; i < args.length; i++){
