@@ -1,4 +1,7 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:12: error: incompatible types: boolean cannot be converted to String
+            if (intArray[i] != intArray[i - 1] + 1) return false;
+                                                           ^
+JudgeMan.java:14: error: incompatible types: boolean cannot be converted to String
+        return true;
+               ^
+2 errors
