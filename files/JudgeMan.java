@@ -11,9 +11,9 @@ public class JudgeMan {
         for(int i = 1; i < hand.length; i++){
             if (intArray[i] != intArray[i - 1] + 1){
                 continue;
-            }else {
-                return null;
-            }
+            }//else {
+             //   return null;
+            //}
         }
         return "Straight";
         if (Arrays.stream(intArray).allMatch(i -> intArray[i] == (intArray[i] + 1))){
