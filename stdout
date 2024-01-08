@@ -1,3 +1,9 @@
+2
+2
+2
+2
+2
+2
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
@@ -5,28 +11,13 @@
 |   +-- OnePair [OK]
 |   +-- ThreeCard [OK]
 |   +-- TwoPair [OK]
-|   +-- Straight [X] expected: <Straight> but was: <No Hand>
+|   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
 |   '-- OnePair2 [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (1):
-  JUnit Jupiter:JudgeManTest:Straight
-    MethodSource [className = 'JudgeManTest', methodName = 'Straight', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Straight> but was: <No Hand>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.Straight(JudgeManTest.java:59)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 158 ms
+Test run finished after 187 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -37,6 +28,6 @@ Test run finished after 158 ms
 [         0 tests skipped         ]
 [         7 tests started         ]
 [         0 tests aborted         ]
-[         6 tests successful      ]
-[         1 tests failed          ]
+[         7 tests successful      ]
+[         0 tests failed          ]
 
