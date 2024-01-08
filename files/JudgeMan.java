@@ -8,8 +8,15 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
-        String ans = straightJudge(intArray);
-        if(ans.equals("Straight")){
+        // String ans = straightJudge(intArray);
+    // Straight判定エリア
+        int counter = 0
+        for(int i = 1; i < intArray.length; i++){
+            if (intArray[i] == (intArray[i - 1] + 1)){
+                counter++
+            }
+        }
+        if(counter == 4){
             return "Straight";
         }
         if(hand[0].substring(1).equals(hand[1].substring(1)) && hand[0].substring(1).equals(hand[3].substring(1))){
@@ -53,7 +60,7 @@ public class JudgeMan {
     
     // Straight判定エリア
     private static String straightJudge(int[] intArray){
-            for(int i = 1; i < intArray.length; i++){
+        for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
                 continue;
             }else {

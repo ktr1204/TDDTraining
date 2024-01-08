@@ -1,4 +1,7 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:13: error: ';' expected
+        int counter = 0
+                       ^
+JudgeMan.java:16: error: ';' expected
+                counter++
+                         ^
+2 errors
