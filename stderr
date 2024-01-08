@@ -1,4 +1,4 @@
-JudgeMan.java:19: error: unreachable statement
-        if (Arrays.stream(intArray).allMatch(i -> intArray[i] == (intArray[i] + 1))){
-        ^
+JudgeMan.java:67: error: reached end of file while parsing
+}
+ ^
 1 error
