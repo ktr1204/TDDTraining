@@ -56,9 +56,9 @@ public class JudgeMan {
             for(int i = 1; i < intArray.length; i++){
             if (intArray[i] != intArray[i - 1] + 1){
                 System.out.println(intArray[i]);
-                continue;
-            }else {
                 return "No Hand";
+            }else {
+                continue;
             }
         }
     return "Straight";
