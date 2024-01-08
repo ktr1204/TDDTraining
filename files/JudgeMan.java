@@ -6,6 +6,8 @@ public class JudgeMan {
         
     }
     public static String judge(String[] hand) {
+        int[] intArray = numCut(hand);
+        System.out.print(intArray);
         if(hand[0].substring(1).equals("2") && hand[1].substring(1).equals("3") && hand[2].substring(1).equals("4") && hand[3].substring(1).equals("5") && hand[4].substring(1).equals("6")){
             return "Straight";
         }
@@ -38,10 +40,11 @@ public class JudgeMan {
         }
         return "No Hand";
     }
-    private int[] efudaCut(String[] args){
+    
+    // 数字部分のみ切り出す
+    private static int[] numCut(String[] args){
         int[] intArray = new int[5];
         for(int i = 0; i < args.length; i++){
-
             intArray[i] = Integer.parseInt(args[i]);
         }
         return intArray;
