@@ -1419,5 +1419,21 @@
       39,
       957284
     ]
+  },
+  {
+    "duration": 2.43098,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 89,
+    "time": [
+      2024,
+      1,
+      8,
+      7,
+      39,
+      1,
+      607498
+    ]
   }
 ]
