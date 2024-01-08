@@ -9,6 +9,9 @@ public class JudgeMan {
         int[] intArray = numCut(hand);
         System.out.print(intArray[0]);
         Arrays.sort(intArray);
+        if (Arrays.stream(intArray).allMatch(i -> intArray[i] == (intArray[i] + 1))){
+            return "Straight";
+        }
         if((intArray[0] + 4) == (intArray[1] + 3) == (intArray[2] + 2) == (intArray[3] + 1) == intArray[4]){
             return "Straight";
         }
