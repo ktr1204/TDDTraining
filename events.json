@@ -1931,5 +1931,21 @@
       54,
       886266
     ]
+  },
+  {
+    "duration": 5.02294,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 121,
+    "time": [
+      2024,
+      1,
+      8,
+      12,
+      51,
+      32,
+      707837
+    ]
   }
 ]
