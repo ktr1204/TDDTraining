@@ -2,6 +2,7 @@
 4
 5
 6
+ここきたよ
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
@@ -9,7 +10,7 @@
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Test run finished after 151 ms
+Test run finished after 157 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]

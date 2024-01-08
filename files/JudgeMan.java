@@ -61,6 +61,7 @@ public class JudgeMan {
                 return "No Hand";
             }
         }
+                System.out.println("ここきたよ");
     return "Straight";
     }
 }
