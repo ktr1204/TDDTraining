@@ -8,6 +8,7 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         System.out.print(intArray[0]);
+        int[] sortedIntArray = Arrays.sort(intArray);
         if(hand[0].substring(1).equals("2") && hand[1].substring(1).equals("3") && hand[2].substring(1).equals("4") && hand[3].substring(1).equals("5") && hand[4].substring(1).equals("6")){
             return "Straight";
         }
