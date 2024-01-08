@@ -39,7 +39,9 @@ public class JudgeMan {
         return "No Hand";
     }
     private int[] efudaCut(String[] args){
-        
+        int[] intarray = [5];
+        for(int i = 0; i < args.length; i++){
+            
         return null;
     }
 }
