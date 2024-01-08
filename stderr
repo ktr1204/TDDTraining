@@ -1,4 +1,6 @@
-JudgeMan.java:42: error: illegal start of expression
-        int[] intArray = [5];
-                         ^
+JudgeMan.java:45: error: cannot find symbol
+            intArray[i] = Integer.toInt(args[i]);
+                                 ^
+  symbol:   method toInt(String)
+  location: class Integer
 1 error
