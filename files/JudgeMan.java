@@ -1,4 +1,4 @@
-wimport java.util.Arrays;
+import java.util.Arrays;
 
 public class JudgeMan {
 

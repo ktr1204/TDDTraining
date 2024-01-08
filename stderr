@@ -1,6 +1,3 @@
-JudgeMan.java:1: error: class, interface, enum, or record expected
-wimport java.util.Arrays;
-^
 JudgeMan.java:9: error: illegal start of expression
         if(Arrays.equals(hand, {"H2", "D3", "C4", "S5", "H6"})){
                                ^
@@ -13,4 +10,4 @@ JudgeMan.java:9: error: ';' expected
 JudgeMan.java:9: error: illegal start of expression
         if(Arrays.equals(hand, {"H2", "D3", "C4", "S5", "H6"})){
                                                              ^
-5 errors
+4 errors
