@@ -1,7 +1,4 @@
-JudgeMan.java:12: error: ')' expected
-        if(ans!){
-              ^
-JudgeMan.java:12: error: illegal start of expression
-        if(ans!){
-               ^
-2 errors
+JudgeMan.java:12: error: bad operand type String for unary operator '!'
+        if(!ans){
+           ^
+1 error
