@@ -1499,5 +1499,21 @@
       8,
       307090
     ]
+  },
+  {
+    "duration": 2.485337,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 94,
+    "time": [
+      2024,
+      1,
+      8,
+      7,
+      51,
+      38,
+      311484
+    ]
   }
 ]
