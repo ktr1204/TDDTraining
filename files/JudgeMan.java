@@ -22,13 +22,13 @@ public class JudgeMan {
             return "Flush";
         }
         // Straight判定エリア
-        int counter = 0;
+        int straightCounter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
-                counter++;
+                straightCounter++;
             }
         }
-        if(counter == 4){
+        if(straightCounter == 4){
             return "Straight";
         }
         // ThreeCard判定エリア
