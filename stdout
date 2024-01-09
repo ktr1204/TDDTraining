@@ -1,6 +1,14 @@
-[Ljava.lang.String;@539d019
+D3
+H3
+D9
+C9
+S9
 No Hand
-[Ljava.lang.String;@12f9af83
+H2
+D2
+C3
+S2
+H6
 No Hand
 .
 +-- JUnit Jupiter [OK]
@@ -33,7 +41,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 220 ms
+Test run finished after 230 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
