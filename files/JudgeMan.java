@@ -32,7 +32,7 @@ public class JudgeMan {
             return "Straight";
         }
         // ThreeCard判定エリア
-        for(int i = 0; i < 2; i++){
+        for(int i = 0; i < 3; i++){
             for(int k = i + 1; k < intArray.length; k++){
                 if(i == k){
                     continue;
