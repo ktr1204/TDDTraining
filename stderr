@@ -1,8 +1,4 @@
-JudgeManTest.java:62: error: unnamed classes are a preview feature and are disabled by default.
-    void Flush() {
-    ^
-  (use --enable-preview to enable unnamed classes)
-JudgeManTest.java:68: error: class, interface, enum, or record expected
-}
-^
-2 errors
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
