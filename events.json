@@ -2299,5 +2299,21 @@
       30,
       999287
     ]
+  },
+  {
+    "duration": 2.337762,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 144,
+    "time": [
+      2024,
+      1,
+      9,
+      12,
+      31,
+      40,
+      486849
+    ]
   }
 ]

@@ -1,4 +1,13 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:12: error: illegal start of expression
+        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
+                       ^
+JudgeMan.java:12: error: not a statement
+        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
+                        ^
+JudgeMan.java:12: error: ';' expected
+        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
+                            ^
+JudgeMan.java:12: error: illegal start of expression
+        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
+                                                     ^
+4 errors

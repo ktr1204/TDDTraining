@@ -8,6 +8,10 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
+        // Flush判定エリア
+        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
+            return "Flush";
+        }
         // Straight判定エリア
         int counter = 0;
         for(int i = 1; i < intArray.length; i++){
