@@ -2683,5 +2683,21 @@
       56,
       169816
     ]
+  },
+  {
+    "duration": 3.453946,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 168,
+    "time": [
+      2024,
+      1,
+      9,
+      16,
+      20,
+      40,
+      925966
+    ]
   }
 ]
