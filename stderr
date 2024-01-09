@@ -1,4 +1,7 @@
-JudgeMan.java:106: error: int cannot be dereferenced
-        return pairJudge(hand).equals("Two Pair");
-                              ^
-1 error
+JudgeMan.java:56: error: unreachable statement
+        return "No Hand";
+        ^
+JudgeMan.java:58: error: missing return statement
+    }
+    ^
+2 errors
