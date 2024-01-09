@@ -75,7 +75,7 @@ public class JudgeManTest {
     @Test
     void FullHouse() {
         JudgeMan judgeMan = new JudgeMan();
-        String[] hand = {"D3", "H3", "D9", "C6", "S5"};
+        String[] hand = {"D3", "H3", "D9", "C9", "S9"};
         String actual = judgeMan.judge(hand);
         assertEquals("Full House", actual);
     }
