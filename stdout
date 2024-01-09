@@ -9,14 +9,14 @@
 |   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
 |   +-- OnePair2 [OK]
-|   '-- Flush2 [X] expected: <Flush> but was: <Straight>
+|   '-- Flush2 [X] expected: <Flush> but was: <No Hand>
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
 Failures (1):
   JUnit Jupiter:JudgeManTest:Flush2
     MethodSource [className = 'JudgeManTest', methodName = 'Flush2', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Flush> but was: <Straight>
+    => org.opentest4j.AssertionFailedError: expected: <Flush> but was: <No Hand>
        org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
        org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
        org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -28,7 +28,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 215 ms
+Test run finished after 231 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
