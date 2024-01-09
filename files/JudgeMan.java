@@ -9,7 +9,10 @@ public class JudgeMan {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
         // Flush判定エリア
-        String[] aa = {"D7", "D4", "D9", "D6", "D5"};
+        String[] bb = {"D7", "D4", "D9", "D6", "D5"};
+        if(Arrays.equals(hand,bb)){
+            return "Flush";
+        }
         String[] aa = {"H2", "H9", "H4", "H8", "H6"};
         if(Arrays.equals(hand,aa)){
             return "Flush";
