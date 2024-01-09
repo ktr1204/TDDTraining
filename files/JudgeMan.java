@@ -97,6 +97,7 @@ public class JudgeMan {
     
     // FullHouse判定エリア
     private static boolean isFullHouse(String[] hand){
+        System.out.println(pairJudge(hand));
         return pairJudge(hand).equals("Two Pair");
     }
 }
