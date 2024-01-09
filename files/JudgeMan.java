@@ -38,7 +38,12 @@ public class JudgeMan {
                     continue;
                 }
                 if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
-                    return "Three Card";
+                    // Full House判定
+                    if(isFullHouse(hand)){
+                        return "Full House";
+                    } else {
+                        return "Three Card";
+                    }
                 }
             }
         }
@@ -88,5 +93,10 @@ public class JudgeMan {
             }
         }
     return "Straight";
+    }
+    
+    // FullHouse判定エリア
+    private static boolean isFullHouse(String[] hand){
+        return pairJudge(hand).equals("Two Pair");
     }
 }
