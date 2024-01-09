@@ -9,6 +9,18 @@ public class JudgeMan {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
         // Flush判定エリア
+        String[] suitArray = new String[5];
+        int flushCounter = 0;
+        for(int i = 1; i < hand.length; i++){
+            if(!hand[i].substring(0,1).equals(hand[i - 1].substring(0,1))){
+                break;
+            } else {
+                flushCounter++;
+            }
+        }
+        if(flushCounter == 4){
+            return "Flush";
+        }
         String[] bb = {"D7", "D4", "D9", "D6", "D5"};
         if(Arrays.equals(hand,bb)){
             return "Flush";
