@@ -9,7 +9,8 @@ public class JudgeMan {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
         // Flush判定エリア
-        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
+        String[] aa = {"H2", "H9", "H4", "H8", "H6"};
+        if(hand.equals(aa;)){
             return "Flush";
         }
         // Straight判定エリア

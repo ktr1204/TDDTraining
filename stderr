@@ -1,13 +1,7 @@
-JudgeMan.java:12: error: illegal start of expression
-        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
-                       ^
-JudgeMan.java:12: error: not a statement
-        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
-                        ^
-JudgeMan.java:12: error: ';' expected
-        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
-                            ^
-JudgeMan.java:12: error: illegal start of expression
-        if(hand.equals({"H2", "H9", "H4", "H8", "H6"})){
-                                                     ^
-4 errors
+JudgeMan.java:13: error: ')' or ',' expected
+        if(hand.equals(aa;)){
+                         ^
+JudgeMan.java:13: error: illegal start of expression
+        if(hand.equals(aa;)){
+                          ^
+2 errors
