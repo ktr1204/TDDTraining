@@ -9,7 +9,7 @@ D2
 C3
 S2
 H6
-No Hand
+Two Pair
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
@@ -17,7 +17,7 @@ No Hand
 |   +-- Flush [OK]
 |   +-- FullHouse [X] expected: <Full House> but was: <Three Card>
 |   +-- OnePair [OK]
-|   +-- ThreeCard [OK]
+|   +-- ThreeCard [X] expected: <Three Card> but was: <Full House>
 |   +-- TwoPair [OK]
 |   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
@@ -26,7 +26,7 @@ No Hand
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (1):
+Failures (2):
   JUnit Jupiter:JudgeManTest:FullHouse
     MethodSource [className = 'JudgeManTest', methodName = 'FullHouse', methodParameterTypes = '']
     => org.opentest4j.AssertionFailedError: expected: <Full House> but was: <Three Card>
@@ -40,8 +40,21 @@ Failures (1):
        java.base/java.lang.reflect.Method.invoke(Method.java:580)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+  JUnit Jupiter:JudgeManTest:ThreeCard
+    MethodSource [className = 'JudgeManTest', methodName = 'ThreeCard', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <Three Card> but was: <Full House>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       JudgeManTest.ThreeCard(JudgeManTest.java:52)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 230 ms
+Test run finished after 179 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -52,6 +65,6 @@ Test run finished after 230 ms
 [         0 tests skipped         ]
 [        10 tests started         ]
 [         0 tests aborted         ]
-[         9 tests successful      ]
-[         1 tests failed          ]
+[         8 tests successful      ]
+[         2 tests failed          ]
 
