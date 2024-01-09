@@ -72,6 +72,8 @@ public class JudgeMan {
                 return "Two Pair";
             case 3:
                 return "Two Pair";
+            case 3:
+                return "Two Pair";
         }
         return "No Hand";
     }
