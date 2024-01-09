@@ -68,11 +68,7 @@ public class JudgeMan {
         switch (pairStack){
             case 1:
                 return "One Pair";
-            case 2:
-                return "Two Pair";
-            case 3:
-                return "Two Pair";
-            case 4:
+            case (pairStack >= 2):
                 return "Two Pair";
         }
         return "No Hand";
