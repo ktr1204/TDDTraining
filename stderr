@@ -1,4 +1,6 @@
-JudgeMan.java:71: error: incompatible types: boolean cannot be converted to int
-            case (pairStack >= 2):
-                            ^
+JudgeMan.java:71: error: cannot find symbol
+            case ($pairStack >= 2):
+                  ^
+  symbol:   variable $pairStack
+  location: class JudgeMan
 1 error

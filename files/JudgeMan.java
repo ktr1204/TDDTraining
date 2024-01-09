@@ -68,7 +68,7 @@ public class JudgeMan {
         switch (pairStack){
             case 1:
                 return "One Pair";
-            case (pairStack >= 2):
+            case ($pairStack >= 2):
                 return "Two Pair";
         }
         return "No Hand";
