@@ -1,4 +1,4 @@
 JudgeMan.java:71: error: incompatible types: boolean cannot be converted to int
-            case pairStack >= 2:
-                           ^
+            case (pairStack >= 2):
+                            ^
 1 error
