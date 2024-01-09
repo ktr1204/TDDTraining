@@ -1,4 +1,4 @@
-JudgeMan.java:60: error: illegal start of expression
-    private static int pairJudge(String[] hand){
-    ^
+JudgeMan.java:106: error: int cannot be dereferenced
+        return pairJudge(hand).equals("Two Pair");
+                              ^
 1 error

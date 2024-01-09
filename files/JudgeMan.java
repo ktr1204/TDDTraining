@@ -53,7 +53,8 @@ public class JudgeMan {
                 return "One Pair";
             case 2, 3, 4:
                 return "Two Pair";
-        return ;
+        return "No Hand";
+        }
     }
     
     // Pair判定エリア
