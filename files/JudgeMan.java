@@ -21,14 +21,6 @@ public class JudgeMan {
         if(flushCounter == 4){
             return "Flush";
         }
-        String[] bb = {"D7", "D4", "D9", "D6", "D5"};
-        if(Arrays.equals(hand,bb)){
-            return "Flush";
-        }
-        String[] aa = {"H2", "H9", "H4", "H8", "H6"};
-        if(Arrays.equals(hand,aa)){
-            return "Flush";
-        }
         // Straight判定エリア
         int counter = 0;
         for(int i = 1; i < intArray.length; i++){
