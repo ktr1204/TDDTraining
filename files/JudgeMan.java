@@ -47,12 +47,17 @@ public class JudgeMan {
                 }
             }
         }
-        String ans = pairJudge(hand);
-        return ans;
+        int ans = pairJudge(hand);
+        switch(ans){
+            case 1:
+                return "One Pair";
+            case 2, 3, 4:
+                return "Two Pair";
+        return ;
     }
     
     // Pair判定エリア
-    private static String pairJudge(String[] hand){
+    private static int pairJudge(String[] hand){
         int pairStack = 0;
         for(int i = 0; i < hand.length; i++){
             String number = hand[i].substring(1);
@@ -65,13 +70,7 @@ public class JudgeMan {
                 }
             }
         }
-        switch (pairStack){
-            case 1:
-                return "One Pair";
-            case (pairStack >= 2):
-                return "Two Pair";
-        }
-        return "No Hand";
+        return pairStack;
     }
     
     // 数字部分をint型で切り出す

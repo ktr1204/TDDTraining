@@ -1,4 +1,4 @@
-JudgeMan.java:71: error: incompatible types: boolean cannot be converted to int
-            case (pairStack >= 2):
-                            ^
+JudgeMan.java:60: error: illegal start of expression
+    private static int pairJudge(String[] hand){
+    ^
 1 error
