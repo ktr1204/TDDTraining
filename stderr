@@ -1,7 +1,4 @@
-JudgeMan.java:13: error: ')' or ',' expected
-        if(hand.equals(aa;)){
-                         ^
-JudgeMan.java:13: error: illegal start of expression
-        if(hand.equals(aa;)){
-                          ^
-2 errors
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
