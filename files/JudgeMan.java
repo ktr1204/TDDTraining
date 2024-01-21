@@ -80,7 +80,7 @@ public class JudgeMan {
                         if(isPaired.get(m) == Integer.parseInt(number)){
                             pair++;
                         }
-                        System.out.println(pair);
+                        // System.out.println(pair);
                         if(pair > 1){
                             pairStack = pairStack - 1;
                         }

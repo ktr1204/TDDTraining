@@ -1,9 +1,6 @@
 2
-1
 2
-1
 2
-1
 3
 .
 +-- JUnit Jupiter [OK]
@@ -27,7 +24,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 192 ms
+Test run finished after 140 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
