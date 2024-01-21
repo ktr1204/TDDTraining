@@ -41,7 +41,7 @@ public class JudgeMan {
                 }
                 if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                     // Full House判定
-                    if(pairJudge(hand, intArray) == 1){
+                    if(pairJudge(intArray) == 1){
                         return "Full House";
                     } else {
                         return "Three Card";
@@ -49,7 +49,7 @@ public class JudgeMan {
                 }
             }
         }
-        int ans = pairJudge(hand, intArray);
+        int ans = pairJudge(intArray);
         switch(ans){
             case 1:
                 return "One Pair";
@@ -61,7 +61,7 @@ public class JudgeMan {
     }
     
     // Pair判定エリア
-    private static int pairJudge(String[] hand, int[] handInt){
+    private static int pairJudge(int[] handInt){
         int pairStack = 0;
         List<Integer> isPaired = new ArrayList<Integer>();
         for(int i = 0; i < handInt.length; i++){
