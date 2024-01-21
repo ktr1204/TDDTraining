@@ -1,4 +1,14 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:73: error: cannot find symbol
+                    List<Integer> isPaired = new ArrayList<Integer>();
+                    ^
+  symbol:   class List
+  location: class JudgeMan
+JudgeMan.java:73: error: cannot find symbol
+                    List<Integer> isPaired = new ArrayList<Integer>();
+                                                 ^
+  symbol:   class ArrayList
+  location: class JudgeMan
+JudgeMan.java:76: error: variable i is already defined in method pairJudge(String[])
+                    for(int i = 0; i < isPaired.size(); i++){
+                            ^
+3 errors

@@ -69,6 +69,18 @@ public class JudgeMan {
                 }
                 if(number.equals(hand[k].substring(1))){
                     pairStack++;
+                    // 3枚以上あったときはpairではないようにする処理
+                    List<Integer> isPaired = new ArrayList<Integer>();
+                    isPaired.add(Integer.parseInt(number));
+                    int pair = 0;
+                    for(int i = 0; i < isPaired.size(); i++){
+                        if(isPaired.get(i) == number){
+                            pair++;
+                        }
+                        if(pair > 1){
+                            pairStack = pairStack - 1;
+                        }
+                    }
                 }
             }
         }
