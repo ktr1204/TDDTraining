@@ -101,6 +101,7 @@ public class JudgeMan {
         return intArray;
     }
     
+    // TODO ここにThreeCard判定を切り出して、フルハウス判定を正しい順番（Fourcardの次）に持ってくる
     // ThreeCard判定エリア
     private static String straightJudge(int[] intArray){
         for(int i = 1; i < intArray.length; i++){
