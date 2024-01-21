@@ -1,15 +1,10 @@
-D3
-H3
-D9
-C9
-S9
+0
 4
-H2
-D2
-C3
-S2
-H6
+1
 3
+2
+2
+1
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
@@ -41,7 +36,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 172 ms
+Test run finished after 139 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]

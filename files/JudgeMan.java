@@ -86,6 +86,7 @@ public class JudgeMan {
                 }
             }
         }
+        System.out.println(pairStack);
         return pairStack;
     }
     
@@ -112,12 +113,12 @@ public class JudgeMan {
     
     // FullHouse判定エリア
     private static boolean isFullHouse(String[] hand){
-        System.out.println(hand[0]);
-        System.out.println(hand[1]);
-        System.out.println(hand[2]);
-        System.out.println(hand[3]);
-        System.out.println(hand[4]);
-        System.out.println(pairJudge(hand));
+        // System.out.println(hand[0]);
+        // System.out.println(hand[1]);
+        // System.out.println(hand[2]);
+        // System.out.println(hand[3]);
+        // System.out.println(hand[4]);
+        // System.out.println(pairJudge(hand));
         return pairJudge(hand) >= 2;
     }
 }
