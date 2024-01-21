@@ -35,14 +35,14 @@ public class JudgeMan {
         }
         // ThreeCard判定エリア
         for(int i = 0; i < 3; i++){
-                if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
-                    // Full House判定
-                    if(pairJudge(intArray) == 1){
-                        return "Full House";
-                    } else {
-                        return "Three Card";
-                    }
+            if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
+                // Full House判定
+                if(pairJudge(intArray) == 1){
+                    return "Full House";
+                } else {
+                    return "Three Card";
                 }
+            }
         }
         int ans = pairJudge(intArray);
         switch(ans){
