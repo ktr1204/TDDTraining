@@ -48,7 +48,7 @@ public class JudgeMan {
         switch(ans){
             case 1:
                 return "One Pair";
-            case 2, 3, 4:
+            case 2:
                 return "Two Pair";
             default:
                 return "No Hand";
