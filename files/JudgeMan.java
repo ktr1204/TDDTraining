@@ -58,7 +58,7 @@ public class JudgeMan {
     // Pair判定エリア
     private static int pairJudge(int[] intArray){
         int pairStack = 0;
-        List<Integer> isPaired = new intArray<Integer>();
+        List<Integer> isPaired = new ArrayList<Integer>();
         for(int i = 0; i < intArray.length; i++){
             int number = intArray[i];
             for(int k = i + 1; k < intArray.length; k++){

@@ -1,0 +1,37 @@
+0
+1
+1
+0
+2
+2
+1
+.
++-- JUnit Jupiter [OK]
+| '-- JudgeManTest [OK]
+|   +-- NoHand [OK]
+|   +-- Flush [OK]
+|   +-- FullHouse [OK]
+|   +-- OnePair [OK]
+|   +-- ThreeCard [OK]
+|   +-- TwoPair [OK]
+|   +-- Straight [OK]
+|   +-- TwoPair2 [OK]
+|   +-- OnePair2 [OK]
+|   '-- Flush2 [OK]
++-- JUnit Vintage [OK]
+'-- JUnit Platform Suite [OK]
+
+Test run finished after 125 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[        10 tests found           ]
+[         0 tests skipped         ]
+[        10 tests started         ]
+[         0 tests aborted         ]
+[        10 tests successful      ]
+[         0 tests failed          ]
+
