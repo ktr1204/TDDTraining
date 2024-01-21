@@ -10,6 +10,13 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
+        // FourCard判定エリア
+        for(int i = 0; i < 2; i++){
+            if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2]) && (intArray[i] == intArray[i + 3])){
+                    return "Four Card";
+                }
+            }
+        }
         // Flush判定エリア
         String[] suitArray = new String[5];
         int flushCounter = 0;
