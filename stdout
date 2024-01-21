@@ -34,7 +34,7 @@
 | '-- JudgeManTest [OK]
 |   +-- NoHand [OK]
 |   +-- Flush [OK]
-|   +-- FullHouse [X] expected: <Full House> but was: <Three Card>
+|   +-- FullHouse [OK]
 |   +-- OnePair [OK]
 |   +-- ThreeCard [OK]
 |   +-- TwoPair [OK]
@@ -45,22 +45,7 @@
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (1):
-  JUnit Jupiter:JudgeManTest:FullHouse
-    MethodSource [className = 'JudgeManTest', methodName = 'FullHouse', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Full House> but was: <Three Card>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.FullHouse(JudgeManTest.java:80)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 157 ms
+Test run finished after 212 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -71,6 +56,6 @@ Test run finished after 157 ms
 [         0 tests skipped         ]
 [        10 tests started         ]
 [         0 tests aborted         ]
-[         9 tests successful      ]
-[         1 tests failed          ]
+[        10 tests successful      ]
+[         0 tests failed          ]
 

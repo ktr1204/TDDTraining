@@ -121,6 +121,6 @@ public class JudgeMan {
         // System.out.println(hand[3]);
         // System.out.println(hand[4]);
         // System.out.println(pairJudge(hand));
-        return pairJudge(hand) >= 2;
+        return pairJudge(hand) == 1;
     }
 }
