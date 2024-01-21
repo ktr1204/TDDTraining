@@ -76,6 +76,7 @@ public class JudgeMan {
                     isPaired.add(Integer.parseInt(number));
                     int pair = 0;
                     for(int m = 0; m < isPaired.size(); m++){
+                        System.out.println(isPaired.get(m));
                         if(isPaired.get(m) == Integer.parseInt(number)){
                             pair++;
                         }
