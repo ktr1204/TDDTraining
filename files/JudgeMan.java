@@ -41,7 +41,7 @@ public class JudgeMan {
                 }
                 if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                     // Full House判定
-                    if(isFullHouse(hand)){
+                    if(pairJudge(hand) == 1){
                         return "Full House";
                     } else {
                         return "Three Card";
@@ -114,13 +114,13 @@ public class JudgeMan {
     }
     
     // FullHouse判定エリア
-    private static boolean isFullHouse(String[] hand){
+    // private static boolean isFullHouse(String[] hand){
         // System.out.println(hand[0]);
         // System.out.println(hand[1]);
         // System.out.println(hand[2]);
         // System.out.println(hand[3]);
         // System.out.println(hand[4]);
         // System.out.println(pairJudge(hand));
-        return pairJudge(hand) == 1;
+     //    return pairJudge(hand) == 1;
     }
 }
