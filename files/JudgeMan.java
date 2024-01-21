@@ -16,7 +16,6 @@ public class JudgeMan {
                     return "Four Card";
                 }
             }
-        }
         // Flush判定エリア
         String[] suitArray = new String[5];
         int flushCounter = 0;
