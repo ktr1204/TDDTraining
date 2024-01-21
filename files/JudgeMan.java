@@ -13,9 +13,9 @@ public class JudgeMan {
         // FourCard判定エリア
         for(int i = 0; i < 2; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2]) && (intArray[i] == intArray[i + 3])){
-                    return "Four Card";
-                }
+                return "Four Card";
             }
+        }
         // Flush判定エリア
         String[] suitArray = new String[5];
         int flushCounter = 0;
@@ -101,7 +101,8 @@ public class JudgeMan {
         return intArray;
     }
     
-    // Straight判定エリア
+    
+    // ThreeCard判定エリア
     private static String straightJudge(int[] intArray){
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
