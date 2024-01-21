@@ -61,16 +61,16 @@ public class JudgeMan {
     }
     
     // Pair判定エリア
-    private static int pairJudge(String[] hand){
+    private static int pairJudge(String[] handSt, int[] hand){
         int pairStack = 0;
         List<Integer> isPaired = new ArrayList<Integer>();
-        for(int i = 0; i < hand.length; i++){
-            String number = hand[i].substring(1);
-            for(int k = i + 1; k < hand.length; k++){
+        for(int i = 0; i < handSt.length; i++){
+            String number = handSt[i].substring(1);
+            for(int k = i + 1; k < handSt.length; k++){
                 if(i == k){
                     continue;
                 }
-                if(number.equals(hand[k].substring(1))){
+                if(number.equals(handSt[k].substring(1))){
                     pairStack++;
                     // 3枚以上あったときはpairではないようにする処理
                     isPaired.add(Integer.parseInt(number));
@@ -112,15 +112,4 @@ public class JudgeMan {
         }
     return "Straight";
     }
-    
-    // FullHouse判定エリア
-    // private static boolean isFullHouse(String[] hand){
-        // System.out.println(hand[0]);
-        // System.out.println(hand[1]);
-        // System.out.println(hand[2]);
-        // System.out.println(hand[3]);
-        // System.out.println(hand[4]);
-        // System.out.println(pairJudge(hand));
-     //    return pairJudge(hand) == 1;
-    // }
 }

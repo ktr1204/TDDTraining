@@ -1,4 +1,13 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:44: error: method pairJudge in class JudgeMan cannot be applied to given types;
+                    if(pairJudge(hand) == 1){
+                       ^
+  required: String[],int[]
+  found:    String[]
+  reason: actual and formal argument lists differ in length
+JudgeMan.java:52: error: method pairJudge in class JudgeMan cannot be applied to given types;
+        int ans = pairJudge(hand);
+                  ^
+  required: String[],int[]
+  found:    String[]
+  reason: actual and formal argument lists differ in length
+2 errors

@@ -3035,5 +3035,21 @@
       32,
       57784
     ]
+  },
+  {
+    "duration": 3.144412,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 190,
+    "time": [
+      2024,
+      1,
+      21,
+      14,
+      6,
+      48,
+      666217
+    ]
   }
 ]
