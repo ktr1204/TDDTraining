@@ -56,22 +56,21 @@ public class JudgeMan {
     }
     
     // Pair判定エリア
-    private static int pairJudge(int[] handInt){
+    private static int pairJudge(int[] intArray){
         int pairStack = 0;
-        List<Integer> isPaired = new ArrayList<Integer>();
-        for(int i = 0; i < handInt.length; i++){
-            int number = handInt[i];
-            for(int k = i + 1; k < handInt.length; k++){
+        List<Integer> isPaired = new intArray<Integer>();
+        for(int i = 0; i < intArray.length; i++){
+            int number = intArray[i];
+            for(int k = i + 1; k < intArray.length; k++){
                 if(i == k){
                     continue;
                 }
-                if(number == (handInt[k])){
+                if(number == (intArray[k])){
                     pairStack++;
                     // 3枚以上あったときはpairではないようにする処理
                     isPaired.add(number);
                     int pair = 0;
                     for(int m = 0; m < isPaired.size(); m++){
-                        System.out.println(isPaired.get(m));
                         if(isPaired.get(m) == number){
                             pair++;
                         }

@@ -3131,5 +3131,21 @@
       40,
       203460
     ]
+  },
+  {
+    "duration": 3.501894,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 196,
+    "time": [
+      2024,
+      1,
+      21,
+      14,
+      34,
+      58,
+      441908
+    ]
   }
 ]

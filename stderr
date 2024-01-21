@@ -1,4 +1,6 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:61: error: cannot find symbol
+        List<Integer> isPaired = new intArray<Integer>();
+                                     ^
+  symbol:   class intArray
+  location: class JudgeMan
+1 error
