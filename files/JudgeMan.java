@@ -63,6 +63,7 @@ public class JudgeMan {
     // Pair判定エリア
     private static int pairJudge(String[] hand){
         int pairStack = 0;
+        List<Integer> isPaired = new ArrayList<Integer>();
         for(int i = 0; i < hand.length; i++){
             String number = hand[i].substring(1);
             for(int k = i + 1; k < hand.length; k++){
@@ -72,7 +73,6 @@ public class JudgeMan {
                 if(number.equals(hand[k].substring(1))){
                     pairStack++;
                     // 3枚以上あったときはpairではないようにする処理
-                    List<Integer> isPaired = new ArrayList<Integer>();
                     isPaired.add(Integer.parseInt(number));
                     int pair = 0;
                     for(int m = 0; m < isPaired.size(); m++){
