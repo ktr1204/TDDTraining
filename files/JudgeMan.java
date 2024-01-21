@@ -101,7 +101,6 @@ public class JudgeMan {
         return intArray;
     }
     
-    
     // ThreeCard判定エリア
     private static String straightJudge(int[] intArray){
         for(int i = 1; i < intArray.length; i++){
