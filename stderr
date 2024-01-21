@@ -1,7 +1,4 @@
-JudgeMan.java:78: error: variable i is already defined in method pairJudge(String[])
-                    for(int i = 0; i < isPaired.size(); i++){
-                            ^
 JudgeMan.java:79: error: incomparable types: Integer and String
-                        if(isPaired.get(i) == number){
+                        if(isPaired.get(m) == number){
                                            ^
-2 errors
+1 error
