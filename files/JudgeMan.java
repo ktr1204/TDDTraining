@@ -64,20 +64,20 @@ public class JudgeMan {
     private static int pairJudge(String[] hand, int[] handInt){
         int pairStack = 0;
         List<Integer> isPaired = new ArrayList<Integer>();
-        for(int i = 0; i < hand.length; i++){
-            String number = hand[i].substring(1);
-            for(int k = i + 1; k < hand.length; k++){
+        for(int i = 0; i < handInt.length; i++){
+            int number = handInt[i];
+            for(int k = i + 1; k < handInt.length; k++){
                 if(i == k){
                     continue;
                 }
-                if(number.equals(hand[k].substring(1))){
+                if(number == (handInt[k])){
                     pairStack++;
                     // 3枚以上あったときはpairではないようにする処理
-                    isPaired.add(Integer.parseInt(number));
+                    isPaired.add(number);
                     int pair = 0;
                     for(int m = 0; m < isPaired.size(); m++){
                         System.out.println(isPaired.get(m));
-                        if(isPaired.get(m) == Integer.parseInt(number)){
+                        if(isPaired.get(m) == number){
                             pair++;
                         }
                         // System.out.println(pair);
