@@ -41,7 +41,7 @@ public class JudgeMan {
                 }
                 if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                     // Full House判定
-                    if(pairJudge(hand) == 1){
+                    if(pairJudge(hand, intArray) == 1){
                         return "Full House";
                     } else {
                         return "Three Card";
@@ -49,7 +49,7 @@ public class JudgeMan {
                 }
             }
         }
-        int ans = pairJudge(hand);
+        int ans = pairJudge(hand, intArray);
         switch(ans){
             case 1:
                 return "One Pair";
@@ -61,16 +61,16 @@ public class JudgeMan {
     }
     
     // Pair判定エリア
-    private static int pairJudge(String[] handSt, int[] hand){
+    private static int pairJudge(String[] hand, int[] handInt){
         int pairStack = 0;
         List<Integer> isPaired = new ArrayList<Integer>();
-        for(int i = 0; i < handSt.length; i++){
-            String number = handSt[i].substring(1);
-            for(int k = i + 1; k < handSt.length; k++){
+        for(int i = 0; i < hand.length; i++){
+            String number = hand[i].substring(1);
+            for(int k = i + 1; k < hand.length; k++){
                 if(i == k){
                     continue;
                 }
-                if(number.equals(handSt[k].substring(1))){
+                if(number.equals(hand[k].substring(1))){
                     pairStack++;
                     // 3枚以上あったときはpairではないようにする処理
                     isPaired.add(Integer.parseInt(number));
