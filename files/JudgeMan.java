@@ -107,9 +107,8 @@ public class JudgeMan {
         for(int i = 0; i < 3; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                 return true;
-            } else {
-                return false;
             }
         }
+        return false;
     }
 }
