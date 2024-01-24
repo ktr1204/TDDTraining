@@ -41,9 +41,6 @@ public class JudgeMan {
         if(flushCounter == 4 && straightCounter == 4){
             return "Straight Flush";
         }
-        if(flushCounter == 4){
-            return "Flush";
-        }
         if(straightCounter == 4){
             return "Straight";
         }
@@ -111,5 +108,21 @@ public class JudgeMan {
             }
         }
         return false;
+    }
+    // Flush判定
+    private static boolean isFlush(String[] hand){
+        String[] suitArray = new String[5];
+        int flushCounter = 0;
+        for(int i = 1; i < hand.length; i++){
+            if(!hand[i].substring(0,1).equals(hand[i - 1].substring(0,1))){
+                break;
+            } else {
+                flushCounter++;
+            }
+        }
+        if(flushCounter == 4){
+            return "Flush";
+        }
+        return "うんにょす";
     }
 }
