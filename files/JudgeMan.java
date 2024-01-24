@@ -10,17 +10,17 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
-        // FourCard判定エリア
+        // FourCard判定
         for(int i = 0; i < 2; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2]) && (intArray[i] == intArray[i + 3])){
                 return "Four Card";
             }
         }
-        // FullHouse判定エリア
+        // FullHouse判定
         if(isThreeCard(intArray) && (pairJudge(intArray) == 1)){
             return "Full House";
         }
-        // Flush判定エリア
+        // Flush判定
         String[] suitArray = new String[5];
         int flushCounter = 0;
         for(int i = 1; i < hand.length; i++){
@@ -33,7 +33,7 @@ public class JudgeMan {
         if(flushCounter == 4){
             return "Flush";
         }
-        // Straight判定エリア
+        // Straight判定
         int straightCounter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
@@ -43,10 +43,12 @@ public class JudgeMan {
         if(straightCounter == 4){
             return "Straight";
         }
-        // ThreeCard判定エリア
+        // ThreeCard判定
         if(isThreeCard(intArray)){
             return "Three Card";
         }
+        // Two Pair判定
+        // One Pair判定
         int ans = pairJudge(intArray);
         switch(ans){
             case 1:
@@ -58,7 +60,7 @@ public class JudgeMan {
         }
     }
     
-    // Pair判定エリア
+    // Pair判定
     private static int pairJudge(int[] intArray){
         int pairStack = 0;
         List<Integer> isPaired = new ArrayList<Integer>();
@@ -97,7 +99,7 @@ public class JudgeMan {
         }
         return intArray;
     }
-    // ThreeCard判定エリア
+    // ThreeCard判定
     private static boolean isThreeCard(int[] intArray){
         for(int i = 0; i < 3; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
