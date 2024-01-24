@@ -16,6 +16,7 @@
 |   +-- ThreeCard [OK]
 |   +-- FourCard [OK]
 |   +-- TwoPair [OK]
+|   +-- OnePairContainsFaceCard [X] For input string: "J"
 |   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
 |   +-- OnePair2 [OK]
@@ -23,17 +24,31 @@
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Test run finished after 200 ms
+Failures (1):
+  JUnit Jupiter:JudgeManTest:OnePairContainsFaceCard
+    MethodSource [className = 'JudgeManTest', methodName = 'OnePairContainsFaceCard', methodParameterTypes = '']
+    => java.lang.NumberFormatException: For input string: "J"
+       java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+       java.base/java.lang.Integer.parseInt(Integer.java:661)
+       java.base/java.lang.Integer.parseInt(Integer.java:777)
+       JudgeMan.numCut(JudgeMan.java:87)
+       JudgeMan.judge(JudgeMan.java:11)
+       JudgeManTest.OnePairContainsFaceCard(JudgeManTest.java:99)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Test run finished after 198 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
 [         0 containers aborted    ]
 [         4 containers successful ]
 [         0 containers failed     ]
-[        12 tests found           ]
+[        13 tests found           ]
 [         0 tests skipped         ]
-[        12 tests started         ]
+[        13 tests started         ]
 [         0 tests aborted         ]
 [        12 tests successful      ]
-[         0 tests failed          ]
+[         1 tests failed          ]
 

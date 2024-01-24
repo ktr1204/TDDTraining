@@ -15,7 +15,6 @@ public class JudgeManTest {
         String actual = judgeMan.judge(hand);
         assertEquals("No Hand", actual);
     }
-    
     @Test
     void OnePair() {
         JudgeMan judgeMan = new JudgeMan();
@@ -92,6 +91,13 @@ public class JudgeManTest {
         String[] hand = {"D3", "D4", "D5", "D6", "D7"};
         String actual = judgeMan.judge(hand);
         assertEquals("Straight Flush", actual);
+    }
+    @Test
+    void OnePairContainsFaceCard() {
+        JudgeMan judgeMan = new JudgeMan();
+        String[] hand = {"HJ", "CJ", "D2", "S5", "H6"};
+        String actual = judgeMan.judge(hand);
+        assertEquals("One Pair", actual);
     }
 
 }
