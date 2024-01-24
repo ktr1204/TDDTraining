@@ -121,8 +121,8 @@ public class JudgeMan {
             }
         }
         if(flushCounter == 4){
-            return "Flush";
+            return true;
         }
-        return "うんにょす";
+        return false;
     }
 }

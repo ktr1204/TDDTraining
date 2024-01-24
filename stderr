@@ -1,7 +1,4 @@
-JudgeMan.java:124: error: incompatible types: String cannot be converted to boolean
-            return "Flush";
-                   ^
-JudgeMan.java:126: error: incompatible types: String cannot be converted to boolean
-        return "うんにょす";
-               ^
-2 errors
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
