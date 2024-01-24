@@ -28,7 +28,7 @@ public class JudgeMan {
             }
         }
         // Straight Flush判定
-        if(isFlush(hand)) && straightCounter == 4){
+        if(isFlush(hand) && (straightCounter == 4)){
             return "Straight Flush";
         }
         // Flush判定
