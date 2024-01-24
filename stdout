@@ -1,18 +1,16 @@
 0
-0
 1
 1
 0
 2
 2
 1
-0
 .
 +-- JUnit Jupiter [OK]
 | '-- JudgeManTest [OK]
 |   +-- NoHand [OK]
 |   +-- StraightFlush [OK]
-|   +-- Flush [X] expected: <Flush> but was: <No Hand>
+|   +-- Flush [OK]
 |   +-- FullHouse [OK]
 |   +-- OnePair [OK]
 |   +-- ThreeCard [OK]
@@ -21,39 +19,11 @@
 |   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
 |   +-- OnePair2 [OK]
-|   '-- Flush2 [X] expected: <Flush> but was: <No Hand>
+|   '-- Flush2 [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (2):
-  JUnit Jupiter:JudgeManTest:Flush
-    MethodSource [className = 'JudgeManTest', methodName = 'Flush', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Flush> but was: <No Hand>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.Flush(JudgeManTest.java:66)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:JudgeManTest:Flush2
-    MethodSource [className = 'JudgeManTest', methodName = 'Flush2', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Flush> but was: <No Hand>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.Flush2(JudgeManTest.java:73)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 196 ms
+Test run finished after 182 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -64,6 +34,6 @@ Test run finished after 196 ms
 [         0 tests skipped         ]
 [        12 tests started         ]
 [         0 tests aborted         ]
-[        10 tests successful      ]
-[         2 tests failed          ]
+[        12 tests successful      ]
+[         0 tests failed          ]
 

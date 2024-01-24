@@ -41,6 +41,9 @@ public class JudgeMan {
         if(flushCounter == 4 && straightCounter == 4){
             return "Straight Flush";
         }
+        if(flushCounter == 4){
+            return "Flush";
+        }
         if(straightCounter == 4){
             return "Straight";
         }
