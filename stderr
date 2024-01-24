@@ -1,19 +1,7 @@
-JudgeMan.java:123: error: method isFlush(String[]) is already defined in class JudgeMan
-    private static boolean isFlush(String[] hand){
-                           ^
-JudgeMan.java:125: error: cannot find symbol
-        for(int i = 1; i < intArray.length; i++){
-                           ^
-  symbol:   variable intArray
-  location: class JudgeMan
-JudgeMan.java:126: error: cannot find symbol
-            if (intArray[i] == (intArray[i - 1] + 1)){
-                ^
-  symbol:   variable intArray
-  location: class JudgeMan
-JudgeMan.java:126: error: cannot find symbol
-            if (intArray[i] == (intArray[i - 1] + 1)){
-                                ^
-  symbol:   variable intArray
-  location: class JudgeMan
-4 errors
+JudgeMan.java:131: error: illegal start of type
+    if(straightCounter == 4){
+    ^
+JudgeMan.java:131: error: <identifier> expected
+    if(straightCounter == 4){
+                      ^
+2 errors
