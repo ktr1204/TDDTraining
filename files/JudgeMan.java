@@ -106,12 +106,7 @@ public class JudgeMan {
     private static boolean isFullHouse(int[] intArray){
         for(int i = 0; i < 3; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
-                // Full House判定
-                if(pairJudge(intArray) == 1){
-                    return false;
-                } else {
-                    return true;
-                }
+                return true;
             }
         }
     }
