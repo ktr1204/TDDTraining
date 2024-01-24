@@ -3691,5 +3691,21 @@
       54,
       116099
     ]
+  },
+  {
+    "duration": 4.851872,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 231,
+    "time": [
+      2024,
+      1,
+      24,
+      13,
+      45,
+      9,
+      619084
+    ]
   }
 ]

@@ -21,6 +21,9 @@ public class JudgeMan {
             return "Full House";
         }
         // Straight判定
+        if(isStraight(intArray)){
+            return "Straight";
+        }
         int straightCounter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
@@ -127,9 +130,9 @@ public class JudgeMan {
                 straightCounter++;
             }
         }
-    if(straightCounter == 4){
-        return true;
-    }
-    return false;
-    }
+        if(straightCounter == 4){
+            return true;
+        }
+        return false;
+        }
 }
