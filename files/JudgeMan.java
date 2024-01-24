@@ -119,4 +119,13 @@ public class JudgeMan {
         }
         return false;
     }
+    // Straight判定
+    private static boolean isFlush(String[] hand){
+        int straightCounter = 0;
+        for(int i = 1; i < intArray.length; i++){
+            if (intArray[i] == (intArray[i - 1] + 1)){
+                straightCounter++;
+            }
+        }
+    }
 }
