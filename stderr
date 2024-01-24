@@ -1,4 +1,4 @@
-JudgeMan.java:112: error: missing return statement
+JudgeMan.java:114: error: missing return statement
     }
     ^
 1 error
