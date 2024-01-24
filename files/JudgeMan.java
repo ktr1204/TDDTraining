@@ -30,15 +30,19 @@ public class JudgeMan {
                 flushCounter++;
             }
         }
-        if(flushCounter == 4){
-            return "Flush";
-        }
         // Straight判定
         int straightCounter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
                 straightCounter++;
             }
+        }
+        // Straight Flush判定
+        if(flushCounter == 4 && straightCounter == 4){
+            return "Straight Flush";
+        }
+        if(flushCounter == 4){
+            return "Flush";
         }
         if(straightCounter == 4){
             return "Straight";
