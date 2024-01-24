@@ -32,14 +32,14 @@ public class JudgeMan {
         if(isStraight(intArray)){
             return "Straight";
         }
-        if(straightCounter == 4){
-            return "Straight";
-        }
         int straightCounter = 0;
         for(int i = 1; i < intArray.length; i++){
             if (intArray[i] == (intArray[i - 1] + 1)){
                 straightCounter++;
             }
+        }
+        if(straightCounter == 4){
+            return "Straight";
         }
         // ThreeCard判定
         if(isThreeCard(intArray)){
