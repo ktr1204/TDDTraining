@@ -44,6 +44,9 @@ public class JudgeMan {
             return "Straight";
         }
         // ThreeCard判定エリア
+        if(isThreeCard){
+            return "Three Card";
+        }
         for(int i = 0; i < 3; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                 // Full House判定
