@@ -16,6 +16,10 @@ public class JudgeMan {
                 return "Four Card";
             }
         }
+        // FullHouse判定エリア
+        if(isThreeCard(intArray) && (pairjudge(intArray) == 1)){
+            return "Full House"
+        }
         // Flush判定エリア
         String[] suitArray = new String[5];
         int flushCounter = 0;
@@ -100,10 +104,8 @@ public class JudgeMan {
         }
         return intArray;
     }
-    
-    // TODO ここにThreeCard判定を切り出して、フルハウス判定を正しい順番（Fourcardの次）に持ってくる
     // ThreeCard判定エリア
-    private static boolean isFullHouse(int[] intArray){
+    private static boolean isThreeCard(int[] intArray){
         for(int i = 0; i < 3; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                 return true;
