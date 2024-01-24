@@ -86,5 +86,12 @@ public class JudgeManTest {
         String actual = judgeMan.judge(hand);
         assertEquals("Four Card", actual);
     }
+    @Test
+    void StraightFlush() {
+        JudgeMan judgeMan = new JudgeMan();
+        String[] hand = {"D3", "D4", "D5", "D6", "D7"};
+        String actual = judgeMan.judge(hand);
+        assertEquals("Straight Flush", actual);
+    }
 
 }
