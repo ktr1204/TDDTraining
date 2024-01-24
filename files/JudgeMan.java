@@ -20,16 +20,6 @@ public class JudgeMan {
         if(isThreeCard(intArray) && (pairJudge(intArray) == 1)){
             return "Full House";
         }
-        // Flush判定
-        String[] suitArray = new String[5];
-        int flushCounter = 0;
-        for(int i = 1; i < hand.length; i++){
-            if(!hand[i].substring(0,1).equals(hand[i - 1].substring(0,1))){
-                break;
-            } else {
-                flushCounter++;
-            }
-        }
         // Straight判定
         int straightCounter = 0;
         for(int i = 1; i < intArray.length; i++){
@@ -38,10 +28,11 @@ public class JudgeMan {
             }
         }
         // Straight Flush判定
-        if(flushCounter == 4 && straightCounter == 4){
+        if(isFlush(hand) && straightCounter == 4){
             return "Straight Flush";
         }
-        if(flushCounter == 4){
+        // Flush判定
+        if(isFlush(hand){
             return "Flush";
         }
         if(straightCounter == 4){
