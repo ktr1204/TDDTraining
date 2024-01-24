@@ -44,7 +44,7 @@ public class JudgeMan {
             return "Straight";
         }
         // ThreeCard判定エリア
-        if(isThreeCard){
+        if(isThreeCard(intArray)){
             return "Three Card";
         }
         for(int i = 0; i < 3; i++){
