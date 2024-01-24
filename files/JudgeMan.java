@@ -32,7 +32,7 @@ public class JudgeMan {
             return "Straight Flush";
         }
         // Flush判定
-        if(isFlush(hand){
+        if(isFlush(hand)){
             return "Flush";
         }
         if(straightCounter == 4){
