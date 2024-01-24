@@ -103,14 +103,16 @@ public class JudgeMan {
     
     // TODO ここにThreeCard判定を切り出して、フルハウス判定を正しい順番（Fourcardの次）に持ってくる
     // ThreeCard判定エリア
-    private static String straightJudge(int[] intArray){
-        for(int i = 1; i < intArray.length; i++){
-            if (intArray[i] == (intArray[i - 1] + 1)){
-                continue;
-            }else {
-                return "No Hand";
+    private static boolean isFullHouse(int[] intArray){
+        for(int i = 0; i < 3; i++){
+            if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
+                // Full House判定
+                if(pairJudge(intArray) == 1){
+                    return "Full House";
+                } else {
+                    return "Three Card";
+                }
             }
         }
-    return "Straight";
     }
 }
