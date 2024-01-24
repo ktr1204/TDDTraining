@@ -17,7 +17,7 @@ public class JudgeMan {
             }
         }
         // FullHouse判定エリア
-        if(isThreeCard(intArray) && (pairjudge(intArray) == 1)){
+        if(isThreeCard(intArray) && (pairJudge(intArray) == 1)){
             return "Full House";
         }
         // Flush判定エリア
