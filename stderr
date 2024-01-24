@@ -1,7 +1,4 @@
-JudgeMan.java:111: error: incompatible types: String cannot be converted to boolean
-                    return "Full House";
-                           ^
-JudgeMan.java:113: error: incompatible types: String cannot be converted to boolean
-                    return "Three Card";
-                           ^
-2 errors
+JudgeMan.java:117: error: missing return statement
+    }
+    ^
+1 error

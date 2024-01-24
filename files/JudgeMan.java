@@ -108,9 +108,9 @@ public class JudgeMan {
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2])){
                 // Full House判定
                 if(pairJudge(intArray) == 1){
-                    return "Full House";
+                    return false;
                 } else {
-                    return "Three Card";
+                    return true;
                 }
             }
         }
