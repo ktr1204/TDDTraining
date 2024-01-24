@@ -1,4 +1,6 @@
-JudgeMan.java:21: error: ';' expected
-            return "Full House"
-                               ^
+JudgeMan.java:20: error: cannot find symbol
+        if(isThreeCard(intArray) && (pairjudge(intArray) == 1)){
+                                     ^
+  symbol:   method pairjudge(int[])
+  location: class JudgeMan
 1 error

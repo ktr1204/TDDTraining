@@ -18,7 +18,7 @@ public class JudgeMan {
         }
         // FullHouse判定エリア
         if(isThreeCard(intArray) && (pairjudge(intArray) == 1)){
-            return "Full House"
+            return "Full House";
         }
         // Flush判定エリア
         String[] suitArray = new String[5];
