@@ -4,4 +4,7 @@ JudgeMan.java:131: error: illegal start of type
 JudgeMan.java:131: error: <identifier> expected
     if(straightCounter == 4){
                       ^
-2 errors
+JudgeMan.java:134: error: illegal start of type
+    return false;
+    ^
+3 errors

@@ -129,6 +129,7 @@ public class JudgeMan {
         }
     }
     if(straightCounter == 4){
-        return "Straight";
+        return true;
     }
+    return false;
 }

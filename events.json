@@ -3659,5 +3659,21 @@
       56,
       883116
     ]
+  },
+  {
+    "duration": 2.202046,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 229,
+    "time": [
+      2024,
+      1,
+      24,
+      13,
+      43,
+      22,
+      24002
+    ]
   }
 ]
