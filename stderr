@@ -1,11 +1,6 @@
-JudgeMan.java:24: error: cannot find symbol
-        if(isFlush(hand) && (straightCounter == 4)){
-                             ^
-  symbol:   variable straightCounter
-  location: class JudgeMan
 JudgeMan.java:35: error: cannot find symbol
         if(straightCounter == 4){
            ^
   symbol:   variable straightCounter
   location: class JudgeMan
-2 errors
+1 error

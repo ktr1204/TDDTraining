@@ -21,7 +21,7 @@ public class JudgeMan {
             return "Full House";
         }
         // Straight Flush判定
-        if(isFlush(hand) && (straightCounter == 4)){
+        if(isFlush(hand) && isStraight(intArray)){
             return "Straight Flush";
         }
         // Flush判定
