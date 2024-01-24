@@ -1,4 +1,11 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:24: error: cannot find symbol
+        if(isFlush(hand) && (straightCounter == 4)){
+                             ^
+  symbol:   variable straightCounter
+  location: class JudgeMan
+JudgeMan.java:35: error: cannot find symbol
+        if(straightCounter == 4){
+           ^
+  symbol:   variable straightCounter
+  location: class JudgeMan
+2 errors
