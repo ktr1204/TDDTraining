@@ -1,4 +1,10 @@
+JudgeMan.java:31: error: illegal start of expression
+        if(isFlush(hand)) && straightCounter == 4){
+                          ^
+JudgeMan.java:31: error: ';' expected
+        if(isFlush(hand)) && straightCounter == 4){
+                                                 ^
 JudgeMan.java:35: error: ')' expected
         if(isFlush(hand){
                         ^
-1 error
+3 errors
