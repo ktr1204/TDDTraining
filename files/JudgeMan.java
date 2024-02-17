@@ -87,10 +87,7 @@ public class JudgeMan {
         int[] intArray = new int[5];
         for(int i = 0; i < args.length; i++){
             switch(args[i].substring(1)){
-                // A,J,Q,Kの場合は数字に変換
-                case "A":
-                    intArray[i] = 1;
-                    break;
+                // J,Q,K,Aの場合は数字に変換
                 case "J":
                     intArray[i] = 11;
                     break;
@@ -99,6 +96,9 @@ public class JudgeMan {
                     break;
                 case "K":
                     intArray[i] = 13;
+                    break;
+                case "A":
+                    intArray[i] = 14;
                     break;
                 default:
                     intArray[i] = Integer.parseInt(args[i].substring(1));

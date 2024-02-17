@@ -14,7 +14,7 @@
 |   +-- OnePairContainsNumberOfTen [OK]
 |   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
-|   +-- RoyalStraightFlush [X] expected: <Royal Straight Flush> but was: <Flush>
+|   +-- RoyalStraightFlush [X] expected: <Royal Straight Flush> but was: <Straight Flush>
 |   +-- OnePair2 [OK]
 |   '-- Flush2 [OK]
 +-- JUnit Vintage [OK]
@@ -23,7 +23,7 @@
 Failures (1):
   JUnit Jupiter:JudgeManTest:RoyalStraightFlush
     MethodSource [className = 'JudgeManTest', methodName = 'RoyalStraightFlush', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Royal Straight Flush> but was: <Flush>
+    => org.opentest4j.AssertionFailedError: expected: <Royal Straight Flush> but was: <Straight Flush>
        org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
        org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
        org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -35,7 +35,7 @@ Failures (1):
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 218 ms
+Test run finished after 177 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
