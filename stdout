@@ -14,22 +14,23 @@
 |   +-- OnePairContainsNumberOfTen [OK]
 |   +-- Straight [OK]
 |   +-- TwoPair2 [OK]
+|   +-- RoyalStraightFlush [OK]
 |   +-- OnePair2 [OK]
 |   '-- Flush2 [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Test run finished after 171 ms
+Test run finished after 266 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
 [         0 containers aborted    ]
 [         4 containers successful ]
 [         0 containers failed     ]
-[        15 tests found           ]
+[        16 tests found           ]
 [         0 tests skipped         ]
-[        15 tests started         ]
+[        16 tests started         ]
 [         0 tests aborted         ]
-[        15 tests successful      ]
+[        16 tests successful      ]
 [         0 tests failed          ]
 
