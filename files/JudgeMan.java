@@ -146,7 +146,7 @@ public class JudgeMan {
         }
     // Royal判定
     private static boolean isRoyal(int[] intArray){
-        if(intArray[0] == 1){
+        if(intArray[0] == 14){
             return true;
         }
         return false;
