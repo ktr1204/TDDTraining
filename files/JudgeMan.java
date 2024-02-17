@@ -87,11 +87,11 @@ public class JudgeMan {
             // A,J,Q,Kの場合は数字に変換
             if(args[i].substring(1).equals("A")){
                 intArray[i] = 1;
-            } else if(args[i].substring(1).equals("J"){
+            } else if(args[i].substring(1).equals("J")){
                 intArray[i] = 11;
-            } else if(args[i].substring(1).equals("Q"){
+            } else if(args[i].substring(1).equals("Q")){
                 intArray[i] = 12;
-            } else if(args[i].substring(1).equals("K"){
+            } else if(args[i].substring(1).equals("K")){
                 intArray[i] = 13;
             }
             intArray[i] = Integer.parseInt(args[i].substring(1));
