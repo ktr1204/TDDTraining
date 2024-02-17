@@ -3803,5 +3803,21 @@
       18,
       65530
     ]
+  },
+  {
+    "duration": 4.697432,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 238,
+    "time": [
+      2024,
+      2,
+      17,
+      7,
+      18,
+      19,
+      385976
+    ]
   }
 ]
