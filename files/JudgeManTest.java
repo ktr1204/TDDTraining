@@ -11,7 +11,8 @@ public class JudgeManTest {
     @Test
     void NoHand() {
         JudgeMan judgeMan = new JudgeMan();
-        String actual = judgeMan.judge({"H2", "C3", "D9", "S5", "H6"});
+        String[] hand = {"H2", "C3", "D9", "S5", "H6"};
+        String actual = judgeMan.judge(hand);
         assertEquals("No Hand", actual);
     }
     @Test
@@ -98,5 +99,11 @@ public class JudgeManTest {
         String actual = judgeMan.judge(hand);
         assertEquals("One Pair", actual);
     }
-
+    // @Test
+    // void RoyalStraightFlush() {
+    //     JudgeMan judgeMan = new JudgeMan();
+    //     String[] hand = {"HJ", "CJ", "D2", "S5", "H6"};
+    //     String actual = judgeMan.judge(hand);
+    //     assertEquals("One Pair", actual);
+    // }
 }
