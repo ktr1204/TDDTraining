@@ -96,7 +96,7 @@ public class JudgeMan {
                 case "K":
                     intArray[i] = 13;
                     break;
-                default
+                default:
                     intArray[i] = Integer.parseInt(args[i].substring(1));
             }
             // A,J,Q,Kの場合は数字に変換
