@@ -93,8 +93,9 @@ public class JudgeMan {
                 intArray[i] = 12;
             } else if(args[i].substring(1).equals("K")){
                 intArray[i] = 13;
+            } else{
+                intArray[i] = Integer.parseInt(args[i].substring(1));
             }
-            intArray[i] = Integer.parseInt(args[i].substring(1));
         }
         return intArray;
     }
