@@ -10,6 +10,10 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
+        // Straight Flush判定
+        if(isFlush(hand) && isStraight(intArray)){
+            return "Straight Flush";
+        }
         // FourCard判定
         for(int i = 0; i < 2; i++){
             if((intArray[i] == intArray[i + 1]) && (intArray[i] == intArray[i + 2]) && (intArray[i] == intArray[i + 3])){
@@ -19,10 +23,6 @@ public class JudgeMan {
         // FullHouse判定
         if(isThreeCard(intArray) && (pairJudge(intArray) == 1)){
             return "Full House";
-        }
-        // Straight Flush判定
-        if(isFlush(hand) && isStraight(intArray)){
-            return "Straight Flush";
         }
         // Flush判定
         if(isFlush(hand)){
