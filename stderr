@@ -1,4 +1,10 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeMan.java:90: error: ')' expected
+            } else if(args[i].substring(1).equals("J"){
+                                                      ^
+JudgeMan.java:92: error: ')' expected
+            } else if(args[i].substring(1).equals("Q"){
+                                                      ^
+JudgeMan.java:94: error: ')' expected
+            } else if(args[i].substring(1).equals("K"){
+                                                      ^
+3 errors
