@@ -10,6 +10,10 @@ public class JudgeMan {
     public static String judge(String[] hand) {
         int[] intArray = numCut(hand);
         Arrays.sort(intArray);
+        // Royal Straight Flush判定
+        if(isFlush(hand)&& isStraight(intArray) && isRoyal(intArray)){
+            return "Royal Straight Flush";
+        }
         // Straight Flush判定
         if(isFlush(hand) && isStraight(intArray)){
             return "Straight Flush";
@@ -136,6 +140,13 @@ public class JudgeMan {
             }
         }
         if(straightCounter == 4){
+            return true;
+        }
+        return false;
+        }
+    // Royal判定
+    private static boolean isRoyal(int[] intArray){
+        if(intArray[0] == 1){
             return true;
         }
         return false;
