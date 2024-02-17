@@ -100,9 +100,16 @@ public class JudgeManTest {
         assertEquals("One Pair", actual);
     }
     @Test
-    void OnePairContainsTen() {
+    void OnePairContainsNumberOfTen() {
         JudgeMan judgeMan = new JudgeMan();
         String[] hand = {"H10", "C10", "D2", "S5", "H6"};
+        String actual = judgeMan.judge(hand);
+        assertEquals("One Pair", actual);
+    }
+    @Test
+    void FourCardContainsNumberOfTen() {
+        JudgeMan judgeMan = new JudgeMan();
+        String[] hand = {"H10", "C10", "D10", "S5", "S10"};
         String actual = judgeMan.judge(hand);
         assertEquals("One Pair", actual);
     }
