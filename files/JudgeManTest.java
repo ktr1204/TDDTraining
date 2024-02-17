@@ -111,7 +111,7 @@ public class JudgeManTest {
         JudgeMan judgeMan = new JudgeMan();
         String[] hand = {"H10", "C10", "D10", "S5", "S10"};
         String actual = judgeMan.judge(hand);
-        assertEquals("One Pair", actual);
+        assertEquals("Four Card", actual);
     }
     // @Test
     // void RoyalStraightFlush() {

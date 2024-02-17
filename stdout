@@ -3,7 +3,7 @@
 | '-- JudgeManTest [OK]
 |   +-- NoHand [OK]
 |   +-- StraightFlush [OK]
-|   +-- FourCardContainsNumberOfTen [X] expected: <One Pair> but was: <Four Card>
+|   +-- FourCardContainsNumberOfTen [OK]
 |   +-- Flush [OK]
 |   +-- FullHouse [OK]
 |   +-- OnePair [OK]
@@ -19,22 +19,7 @@
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (1):
-  JUnit Jupiter:JudgeManTest:FourCardContainsNumberOfTen
-    MethodSource [className = 'JudgeManTest', methodName = 'FourCardContainsNumberOfTen', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <One Pair> but was: <Four Card>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       JudgeManTest.FourCardContainsNumberOfTen(JudgeManTest.java:114)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 172 ms
+Test run finished after 171 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -45,6 +30,6 @@ Test run finished after 172 ms
 [         0 tests skipped         ]
 [        15 tests started         ]
 [         0 tests aborted         ]
-[        14 tests successful      ]
-[         1 tests failed          ]
+[        15 tests successful      ]
+[         0 tests failed          ]
 
