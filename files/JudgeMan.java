@@ -141,14 +141,14 @@ public class JudgeMan {
         }
         if(straightCounter == 4){
             return true;
-        }
-        return false;
+        }else{
+            return false;
         }
     // Royal判定
     private static boolean isRoyal(int[] intArray){
-        if(intArray[4] == 14){
+        if((intArray[0] == 10) && (intArray[1] == 11) && (intArray[2] == 12) && (intArray[3] == 13) && (intArray[4] == 14)){
             return true;
-        }
-        return false;
+        }else{
+            return false;
         }
 }
