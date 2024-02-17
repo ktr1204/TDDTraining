@@ -83,6 +83,23 @@ public class JudgeMan {
         int[] intArray = new int[5];
         for(int i = 0; i < args.length; i++){
             // A,J,Q,Kの場合は数字に変換
+            switch(args[i].substring(1)){
+                case "A";
+                    intArray[i] = 1;
+                    break;
+                case "J";
+                    intArray[i] = 11;
+                    break;
+                case "Q";
+                    intArray[i] = 12;
+                    break;
+                case "K";
+                    intArray[i] = 13;
+                    break;
+                default
+                    intArray[i] = Integer.parseInt(args[i].substring(1));
+            }
+            // A,J,Q,Kの場合は数字に変換
             if(args[i].substring(1).equals("A")){
                 intArray[i] = 1;
             } else if(args[i].substring(1).equals("J")){
@@ -135,4 +152,7 @@ public class JudgeMan {
         }
         return false;
         }
+    // suit = 絵柄
+    // private String suit(int i){
+    //     return 
 }
