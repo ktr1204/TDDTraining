@@ -68,7 +68,6 @@ public class JudgeMan {
                         if(isPaired.get(m) == number){
                             pair++;
                         }
-                        // System.out.println(pair);
                         if(pair > 1){
                             pairStack = pairStack - 1;
                         }
@@ -76,7 +75,6 @@ public class JudgeMan {
                 }
             }
         }
-        System.out.println(pairStack);
         return pairStack;
     }
     
