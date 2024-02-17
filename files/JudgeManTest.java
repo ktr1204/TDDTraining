@@ -116,8 +116,8 @@ public class JudgeManTest {
     @Test
     void RoyalStraightFlush() {
         JudgeMan judgeMan = new JudgeMan();
-        String[] hand = {"HJ", "CJ", "D2", "S5", "H6"};
+        String[] hand = {"H10", "HJ", "HQ", "HK", "HA"};
         String actual = judgeMan.judge(hand);
-        assertEquals("One Pair", actual);
+        assertEquals("Royal Straight Flush", actual);
     }
 }
