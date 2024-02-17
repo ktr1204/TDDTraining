@@ -84,16 +84,16 @@ public class JudgeMan {
         for(int i = 0; i < args.length; i++){
             // A,J,Q,Kの場合は数字に変換
             switch(args[i].substring(1)){
-                case "A";
+                case "A":
                     intArray[i] = 1;
                     break;
-                case "J";
+                case "J":
                     intArray[i] = 11;
                     break;
-                case "Q";
+                case "Q":
                     intArray[i] = 12;
                     break;
-                case "K";
+                case "K":
                     intArray[i] = 13;
                     break;
                 default

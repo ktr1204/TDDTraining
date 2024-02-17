@@ -1,16 +1,4 @@
-JudgeMan.java:87: error: : or -> expected
-                case "A";
-                        ^
-JudgeMan.java:90: error: : or -> expected
-                case "J";
-                        ^
-JudgeMan.java:93: error: : or -> expected
-                case "Q";
-                        ^
-JudgeMan.java:96: error: : or -> expected
-                case "K";
-                        ^
 JudgeMan.java:99: error: : or -> expected
                 default
                        ^
-5 errors
+1 error
