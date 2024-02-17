@@ -1,4 +1,13 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+JudgeManTest.java:14: error: illegal start of expression
+        String actual = judgeMan.judge({"H2", "C3", "D9", "S5", "H6"});
+                                       ^
+JudgeManTest.java:14: error: not a statement
+        String actual = judgeMan.judge({"H2", "C3", "D9", "S5", "H6"});
+                                        ^
+JudgeManTest.java:14: error: ';' expected
+        String actual = judgeMan.judge({"H2", "C3", "D9", "S5", "H6"});
+                                            ^
+JudgeManTest.java:14: error: illegal start of expression
+        String actual = judgeMan.judge({"H2", "C3", "D9", "S5", "H6"});
+                                                                     ^
+4 errors

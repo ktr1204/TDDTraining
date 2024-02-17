@@ -82,8 +82,8 @@ public class JudgeMan {
     private static int[] numCut(String[] args){
         int[] intArray = new int[5];
         for(int i = 0; i < args.length; i++){
-            // A,J,Q,Kの場合は数字に変換
             switch(args[i].substring(1)){
+                // A,J,Q,Kの場合は数字に変換
                 case "A":
                     intArray[i] = 1;
                     break;
@@ -140,7 +140,4 @@ public class JudgeMan {
         }
         return false;
         }
-    // suit = 絵柄
-    // private String suit(int i){
-    //     return 
 }
