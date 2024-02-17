@@ -1,7 +1,4 @@
-JudgeMan.java:148: error: illegal start of expression
-    private static boolean isRoyal(int[] intArray){
-    ^
-JudgeMan.java:154: error: reached end of file while parsing
+JudgeMan.java:155: error: reached end of file while parsing
 }
  ^
-2 errors
+1 error
